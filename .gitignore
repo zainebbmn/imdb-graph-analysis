@@ -28,6 +28,7 @@ tmp/
 *.zip
 !presentation/
 !presentation/*.pptx
+!presentation/*.pdf
 
 # Temporary HTML exports
 tmp*.html
