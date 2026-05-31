@@ -1,0 +1,64 @@
+digraph {
+	nan [label=nan]
+	"The Great Train Robbery" [label="The Great Train Robbery"]
+	"Gilbert M. 'Broncho Billy' Anderson" [label="Gilbert M. 'Broncho Billy' Anderson"]
+	"Susceptible Youth" [label="Susceptible Youth"]
+	"We Must Do Our Best" [label="We Must Do Our Best"]
+	"The Waterer Watered" [label="The Waterer Watered"]
+	"The House of the Devil" [label="The House of the Devil"]
+	"The Astronomer's Dream; or, The Man in the Moon" [label="The Astronomer's Dream; or, The Man in the Moon"]
+	Cinderella [label=Cinderella]
+	"The Enchanted Drawing" [label="The Enchanted Drawing"]
+	nan -> "The Waterer Watered"
+	nan -> "The House of the Devil"
+	nan -> "The Astronomer's Dream; or, The Man in the Moon"
+	nan -> Cinderella
+	nan -> "The Enchanted Drawing"
+	nan -> "The India Rubber Head"
+	nan -> "A Trip to the Moon"
+	nan -> "The Great Train Robbery"
+	nan -> "The Music Lover"
+	nan -> "The Kingdom of the Fairies"
+	nan -> "The Land Beyond the Sunset"
+	nan -> "Rescued by Rover"
+	nan -> "An Impossible Voyage"
+	nan -> "The Electric Hotel"
+	nan -> "Dream of a Rarebit Fiend"
+	nan -> "The Haunted Hotel"
+	nan -> "The 400 Tricks of the Devil"
+	nan -> "The Boston Tea Party"
+	nan -> "Humanity Through the Ages"
+	nan -> "The Count of Monte Cristo"
+	nan -> "The Reckoning"
+	nan -> "Romeo and Juliet"
+	nan -> "Susceptible Youth"
+	nan -> "A Corner in Wheat"
+	nan -> "The Heart of an Outlaw"
+	nan -> "The Message"
+	nan -> "How Brother Cook was Taught a Lesson"
+	nan -> "One Touch of Nature"
+	nan -> "A Rural Elopement"
+	nan -> "They Would Elope"
+	nan -> "Washington Under the American Flag"
+	nan -> "We Must Do Our Best"
+	nan -> "The Welcome Burglar"
+	nan -> "Dorian Grays Portræt"
+	nan -> "His Sister-in-Law"
+	nan -> "In Old California"
+	nan -> "The New Stenographer"
+	nan -> "The Song of the Wildwood Flute"
+	nan -> "A Victim of Jealousy"
+	nan -> "White Roses"
+	nan -> "Amor fatal"
+	nan -> "The Battle of Bunker Hill"
+	nan -> "The Battle of Trafalgar"
+	nan -> "The Doctor"
+	nan -> "The Four Devils"
+	nan -> "The General's Daughter"
+	nan -> "Her Awakening"
+	nan -> "The Immortal Alamo"
+	"The Great Train Robbery" -> "Gilbert M. 'Broncho Billy' Anderson"
+	"Gilbert M. 'Broncho Billy' Anderson" -> "The Girl on Triple X"
+	"Susceptible Youth" -> "Maurice Chevalier"
+	"We Must Do Our Best" -> "Moe Howard"
+}

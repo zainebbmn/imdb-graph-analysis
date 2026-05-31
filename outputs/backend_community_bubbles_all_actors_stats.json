@@ -1,0 +1,8 @@
+{
+  "source_rows_read": 300000,
+  "actors_analyzed": 30926,
+  "edges_analyzed": 563847,
+  "communities_detected": 215,
+  "top_communities_detailed": 18,
+  "others_grouped_actor_count": 1290
+}

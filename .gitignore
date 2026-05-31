@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+
+# Editor / local state
+.vscode/
+
+# Logs
+*.log
+streamlit_*.log
+
+# Large local data and caches
+*.pkl
+*.tsv
+
+# Temporary build folders
+tmp/
+
+# Generated presentations / reports / archives
+*.pptx
+*.pdf
+*.zip
+
+# Temporary HTML exports
+tmp*.html
+graph_example.html
+graph_select.html
+
+# Generated screenshots and support artifacts not needed in git
+outputs/site_*.png
+outputs/site_*.html
+outputs/*overview*
+outputs/*.md
+outputs/*.json
+
+# Keep only the outputs currently used by the app
+!outputs/backend_community_bubbles_all_actors_stats.json
+!outputs/backend_community_bubbles_top_stats.csv
+!outputs/community_genre_percentages_global.csv
+!outputs/top_acteurs_par_communaute.csv
+!outputs/actor_producers_by_community.csv
+!outputs/backend_community_bubbles_all_actors.png
+!outputs/backend_community_bubbles_top.png
+!outputs/community_shortest_paths_focus.png

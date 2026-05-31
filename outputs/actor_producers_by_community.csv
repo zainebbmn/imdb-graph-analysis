@@ -1,0 +1,977 @@
+﻿community_id,actor_id,actor_name,weighted_degree,degree,actor_projects,producer_titles_count,all_roles,community_top_title_by_votes,community_top_title_votes,community_top_title_rating
+2,nm0008724,Dawlat Abiad,9,9,1,0,actress,Zeinab (1930),11,7.9
+6,nm0000370,Walt Disney,217,48,89,0,"actor, director, writer",Steamboat Willie (1928),12653,7.4
+6,nm0411208,Rudolf Ising,136,41,48,75,"actor, director, producer",Steamboat Willie (1928),12653,7.4
+6,nm0907003,Jerry Wald,18,18,2,0,"actor, writer",Steamboat Willie (1928),12653,7.4
+6,nm0281502,Max Fleischer,17,6,72,219,"actor, director, producer, writer",Steamboat Willie (1928),12653,7.4
+6,nm0281487,Dave Fleischer,15,9,8,0,"actor, director",Steamboat Willie (1928),12653,7.4
+6,nm0526691,Charles Lung,15,13,4,0,actor,Steamboat Willie (1928),12653,7.4
+6,nm0338017,Joseph Green,15,15,2,0,"actor, director, writer",Steamboat Willie (1928),12653,7.4
+6,nm0363414,Hugh Harman,9,8,2,75,"actor, director, producer",Steamboat Willie (1928),12653,7.4
+6,nm0412650,Ub Iwerks,5,5,1,27,"actor, director, producer, writer",Steamboat Willie (1928),12653,7.4
+6,nm0085626,Norm Blackburn,4,4,1,0,actor,Steamboat Willie (1928),12653,7.4
+6,nm0254749,Carlyle Ellis,2,2,1,0,actor,Steamboat Willie (1928),12653,7.4
+7,nm0176470,Aníbal Contreiras,4,4,1,2,"actor, director, producer",Pratas Conquistador (1917),15,4.4
+11,nm0462949,Jacques A. Koerpel,9,9,1,1,"actor, director, producer, writer",War Is a Racket (1934),0,0.0
+15,nm0138286,Pat Carlyle,18,18,2,1,"actor, director, producer",Maniac (1934),2887,3.7
+16,nm0750975,Alice B. Russell,36,35,4,0,actress,Morocco (1930),8355,7.0
+16,nm0519315,Raymond Longford,30,22,5,2,"actor, director, producer, writer",Morocco (1930),8355,7.0
+16,nm0521121,Marie Lorraine,27,26,3,1,"actress, producer",Morocco (1930),8355,7.0
+16,nm0104270,Kenneth Brampton,18,18,2,1,"actor, director, producer, writer",Morocco (1930),8355,7.0
+16,nm0047150,Bert Bailey,9,9,1,1,"actor, producer, writer",Morocco (1930),8355,7.0
+16,nm0497961,Norman Lee,9,9,1,1,"actor, director, producer, writer",Morocco (1930),8355,7.0
+16,nm0709850,George Randol,9,9,1,0,actor,Morocco (1930),8355,7.0
+16,nm1321727,William Green,9,9,1,0,actor,Morocco (1930),8355,7.0
+16,nm0002035,Sammy Davis Jr.,7,7,1,0,actor,Morocco (1930),8355,7.0
+22,nm0154504,Henrique Chaves,8,8,1,0,actor,A Voz do Carnaval (1933),13,5.6
+27,nm0679609,Bhalachandra D. Phalke,9,9,1,0,actor,Raja Harishchandra (1913),487,5.9
+30,nm0623419,Nazir,3,3,1,0,actor,Abe Hayat (1933),20,2.2
+35,nm0595271,Sohrab Modi,9,9,1,0,"actor, director",Khoon Ka Khoon (1935),13,5.0
+45,nm0106218,John Randolph Bray,1,1,1,211,"actor, director, producer, writer",The Artist's Dreams (1913),227,6.2
+49,nm0913341,Bryant Washburn,1034,648,152,2,"actor, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0848232,Norma Talmadge,691,407,110,23,"actress, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0277411,Flora Finch,599,356,88,1,"actress, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0001932,Richard Barthelmess,565,446,70,2,"actor, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0829171,Anita Stewart,548,321,89,16,"actress, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0949403,Clara Kimball Young,541,379,74,6,"actress, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0604384,Harry T. Morey,512,325,73,0,actor,All Quiet on the Western Front (1930),71942,8.1
+49,nm0848226,Constance Talmadge,502,349,78,1,"actress, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0085877,Carlyle Blackwell,470,297,73,4,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0408433,Ralph Ince,434,342,60,2,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0191899,Irving Cummings,433,340,61,7,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0933045,Ben F. Wilson,427,220,71,50,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0341464,Corinne Griffith,419,314,59,2,"actress, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0448682,Charles Kent,394,232,56,1,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0401967,William Humphrey,384,306,56,1,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0877550,Florence Turner,360,296,54,4,"actress, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0164244,Marguerite Clark,313,242,39,1,"actress, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0669410,Virginia Pearson,310,257,43,0,actress,All Quiet on the Western Front (1930),71942,8.1
+49,nm0190516,James Cruze,255,135,39,29,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0047889,Leah Baird,248,192,43,2,"actress, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0871311,Richard Travers,195,163,29,0,actor,All Quiet on the Western Front (1930),71942,8.1
+49,nm0437312,Gail Kane,191,169,28,0,actress,All Quiet on the Western Front (1930),71942,8.1
+49,nm0237713,Sidney Drew,187,84,68,6,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0405098,Peggy Hyland,182,153,29,0,actress,All Quiet on the Western Front (1930),71942,8.1
+49,nm0064600,Harry Beaumont,167,68,26,3,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0678232,Olga Petrova,141,96,21,1,"actress, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0237693,Mrs. Sidney Drew,136,55,63,2,"actress, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0710362,William V. Ranous,121,67,22,1,"actor, director, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0834970,Eugene Strong,110,104,15,0,actor,All Quiet on the Western Front (1930),71942,8.1
+49,nm0220082,Joseph Depew,108,100,12,0,actor,All Quiet on the Western Front (1930),71942,8.1
+49,nm0631438,William Nigh,104,80,14,2,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0163965,George Clarke,89,81,11,0,actor,All Quiet on the Western Front (1930),71942,8.1
+49,nm0358991,Hope Hampton,83,79,12,2,"actress, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0198410,Arnold Daly,80,62,10,2,"actor, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0587754,Harry F. Millarde,78,30,15,2,"actor, director, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0276165,Romaine Fielding,72,66,11,1,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0012317,John G. Adolfi,70,49,10,1,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0139878,Thomas Carr,67,67,8,0,actor,All Quiet on the Western Front (1930),71942,8.1
+49,nm0107543,Herbert Brenon,61,49,9,14,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0769144,Paul Scardon,61,50,9,1,"actor, director, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0532957,Charles W. Mack,57,56,7,4,"actor, director, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0782707,George B. Seitz,54,34,7,12,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0584955,Beatriz Michelena,53,29,7,0,actress,All Quiet on the Western Front (1930),71942,8.1
+49,nm0430968,Edward José,50,41,8,3,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0066734,Lee Beggs,49,37,9,1,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0829381,F.W. Stewart,48,38,6,0,actor,All Quiet on the Western Front (1930),71942,8.1
+49,nm0002271,Rex Ingram,47,44,7,8,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0849806,Robert Emmett Tansey,46,42,8,4,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0338947,Walter Greene,46,43,8,1,"actor, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0855912,Tom Terriss,45,33,6,2,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0169125,George M. Cohan,40,38,5,1,"actor, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0306947,Helen Gardner,39,38,8,3,"actress, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0261455,Howard Estabrook,39,37,6,2,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0731910,John S. Robertson,38,28,6,1,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0164030,J.J. Clark,37,33,8,0,"actor, director",All Quiet on the Western Front (1930),71942,8.1
+49,nm0292134,Harry L. Fraser,35,35,4,1,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0046104,Frank Badgley,33,33,4,0,"actor, director, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0205717,Grace Davison,32,31,6,1,"actress, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0526226,O.A.C. Lund,28,23,5,1,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0256639,Arthur Guy Empey,27,24,3,2,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0426812,W. Ray Johnston,23,23,3,19,"actor, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0428013,Edgar Jones,23,23,3,1,"actor, director, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0662032,Albert Parker,23,22,3,0,"actor, director, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0188640,Charles Crompton,23,23,3,0,actor,All Quiet on the Western Front (1930),71942,8.1
+49,nm0136888,Edwin Carewe,22,21,4,18,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0754752,Martin Sabine,22,13,3,1,"actor, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0708118,Natacha Rambova,22,22,3,1,"actress, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0370524,Mary Hay,18,18,2,1,"actress, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0911493,Denis Ward,18,17,2,0,actor,All Quiet on the Western Front (1930),71942,8.1
+49,nm0308257,Richard Garrick,18,18,2,0,"actor, director",All Quiet on the Western Front (1930),71942,8.1
+49,nm0869665,Maurice Tourneur,17,17,2,21,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0205653,Will S. Davis,17,10,4,2,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0381234,Ralph Herz,17,17,2,0,actor,All Quiet on the Western Front (1930),71942,8.1
+49,nm0071560,Spencer Gordon Bennet,16,16,2,3,"actor, director, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0825225,Julius Steger,14,13,2,2,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0898660,James Vincent,10,9,3,0,"actor, director",All Quiet on the Western Front (1930),71942,8.1
+49,nm0912491,Jack L. Warner,9,9,1,5,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0903049,Josef von Sternberg,9,9,1,3,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0930803,J.B. Williams,9,9,1,2,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0136887,Edward Carewe,9,9,1,1,"actor, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0160316,George Christie,9,9,1,1,"actor, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0879094,Jacques Tyrol,9,9,1,1,"actor, director, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0007276,Legaren à Hiller,9,9,1,1,"actor, director, producer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0191462,Edward Cullen,9,9,1,0,actor,All Quiet on the Western Front (1930),71942,8.1
+49,nm0833965,Frank R. Strayer,9,9,1,0,"actor, director, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0152377,George Chapman,9,9,1,0,actor,All Quiet on the Western Front (1930),71942,8.1
+49,nm0471341,Milton Krims,9,9,1,0,"actor, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0085865,J. Stuart Blackton,8,8,8,43,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0067584,David Belasco,8,8,1,3,"actor, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0663832,Harriet Parsons,8,8,1,0,actress,All Quiet on the Western Front (1930),71942,8.1
+49,nm0588121,Joseph C. Miller,8,8,1,0,"actor, director",All Quiet on the Western Front (1930),71942,8.1
+49,nm0119138,Kenean Buel,7,7,2,1,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0532023,Kenneth MacDougall,7,7,2,1,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0949509,Edna Young,7,7,1,0,actress,All Quiet on the Western Front (1930),71942,8.1
+49,nm0414409,Frank Jacobs,7,7,1,0,actor,All Quiet on the Western Front (1930),71942,8.1
+49,nm0646058,Sidney Olcott,6,4,2,1,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0128684,Marie Cahill,6,6,2,0,actress,All Quiet on the Western Front (1930),71942,8.1
+49,nm0459622,George Kline,6,6,1,0,actor,All Quiet on the Western Front (1930),71942,8.1
+49,nm0086486,Ben K. Blake,5,5,1,0,"actor, director",All Quiet on the Western Front (1930),71942,8.1
+49,nm0152158,Benjamin Chapin,3,1,3,4,"actor, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+49,nm0902426,Hubert von Herkomer,2,2,1,1,"actor, director, producer, writer",All Quiet on the Western Front (1930),71942,8.1
+50,nm0681933,Mary Pickford,1399,443,201,14,"actress, producer, writer",The Birth of a Nation (1915),28235,6.1
+50,nm0601698,Owen Moore,1284,476,178,1,"actor, director, producer, writer",The Birth of a Nation (1915),28235,6.1
+50,nm0784407,Mack Sennett,1281,180,191,672,"actor, director, producer, writer",The Birth of a Nation (1915),28235,6.1
+50,nm0002503,Harry Carey,1202,522,176,9,"actor, director, producer, writer",The Birth of a Nation (1915),28235,6.1
+50,nm0226992,Edward Dillon,1132,237,152,2,"actor, director, producer, writer",The Birth of a Nation (1915),28235,6.1
+50,nm0842239,Blanche Sweet,965,389,131,1,"actress, producer",The Birth of a Nation (1915),28235,6.1
+50,nm0321088,Dorothy Gish,626,305,96,1,"actress, producer",The Birth of a Nation (1915),28235,6.1
+50,nm0681927,Jack Pickford,553,314,73,2,"actor, director, producer",The Birth of a Nation (1915),28235,6.1
+50,nm0127511,Christy Cabanne,342,74,39,3,"actor, director, producer, writer",The Birth of a Nation (1915),28235,6.1
+50,nm0288616,Frank Powell,307,71,38,6,"actor, director, producer, writer",The Birth of a Nation (1915),28235,6.1
+50,nm0499883,Henry Lehrman,194,82,29,13,"actor, director, producer, writer",The Birth of a Nation (1915),28235,6.1
+50,nm0000428,D.W. Griffith,174,56,38,64,"actor, director, producer, writer",The Birth of a Nation (1915),28235,6.1
+50,nm0849803,John Tansey,115,93,14,1,"actor, director, producer, writer",The Birth of a Nation (1915),28235,6.1
+50,nm0227020,John Francis Dillon,80,80,11,1,"actor, director, producer, writer",The Birth of a Nation (1915),28235,6.1
+50,nm0408436,Thomas H. Ince,40,32,7,178,"actor, director, producer, writer",The Birth of a Nation (1915),28235,6.1
+50,nm0137407,Lloyd B. Carleton,24,24,3,1,"actor, director, producer, writer",The Birth of a Nation (1915),28235,6.1
+50,nm0875869,George Loane Tucker,18,5,5,1,"actor, director, producer, writer",The Birth of a Nation (1915),28235,6.1
+50,nm0102783,Bertram Bracken,18,17,2,1,"actor, director, producer, writer",The Birth of a Nation (1915),28235,6.1
+50,nm0577734,Gaston Méliès,12,12,2,10,"actor, director, producer",The Birth of a Nation (1915),28235,6.1
+50,nm0547966,Frances Marion,9,9,1,2,"actress, director, producer, writer",The Birth of a Nation (1915),28235,6.1
+50,nm0929649,Irvin Willat,3,3,1,2,"actor, director, producer, writer",The Birth of a Nation (1915),28235,6.1
+53,nm0000875,L. Frank Baum,19,19,3,8,"actor, producer, writer",The Fairylogue and Radio-Plays (1908),85,5.0
+61,nm0143899,Godfrey Cass,9,9,1,1,"actor, producer",The Story of the Kelly Gang (1906),1067,6.0
+61,nm0846894,John Tait,9,9,1,1,"actor, producer",The Story of the Kelly Gang (1906),1067,6.0
+62,nm0932048,J. Ernest Williamson,5,5,1,1,"actor, director, producer, writer",Wonders of the Sea (1922),16,6.8
+63,nm0941279,Abel Woolrich,9,9,1,0,actor,Dama de noche (1993),34,6.2
+66,nm0531759,J. Farrell MacDonald,1270,925,152,0,"actor, director",City Lights (1931),216009,8.5
+66,nm0002177,Oscar Apfel,808,616,94,7,"actor, director, producer, writer",City Lights (1931),216009,8.5
+66,nm0579663,Adolphe Menjou,760,625,93,0,actor,City Lights (1931),216009,8.5
+66,nm0171873,William Collier Jr.,646,527,80,0,actor,City Lights (1931),216009,8.5
+66,nm0362742,Sam Hardy,560,487,67,1,"actor, producer, writer",City Lights (1931),216009,8.5
+66,nm0228715,Richard Dix,551,439,66,1,"actor, producer",City Lights (1931),216009,8.5
+66,nm0913094,Robert Warwick,506,417,63,0,actor,City Lights (1931),216009,8.5
+66,nm0639563,George O'Brien,465,366,53,0,actor,City Lights (1931),216009,8.5
+66,nm0949835,Loretta Young,463,367,54,0,actress,City Lights (1931),216009,8.5
+66,nm0637789,Edward J. Nugent,436,376,49,0,actor,City Lights (1931),216009,8.5
+66,nm0000011,Gary Cooper,423,344,50,0,actor,City Lights (1931),216009,8.5
+66,nm0001195,Douglas Fairbanks Jr.,419,363,48,0,actor,City Lights (1931),216009,8.5
+66,nm0272059,Leslie Fenton,412,343,48,0,actor,City Lights (1931),216009,8.5
+66,nm0792514,Lowell Sherman,390,338,50,1,"actor, director, producer",City Lights (1931),216009,8.5
+66,nm0203836,Marion Davies,381,321,45,8,"actress, producer, writer",City Lights (1931),216009,8.5
+66,nm0001076,Joan Crawford,373,272,43,0,actress,City Lights (1931),216009,8.5
+66,nm0936728,Grant Withers,370,323,44,0,actor,City Lights (1931),216009,8.5
+66,nm0290215,Kay Francis,369,295,41,0,actress,City Lights (1931),216009,8.5
+66,nm0601129,Dickie Moore,356,281,40,0,actor,City Lights (1931),216009,8.5
+66,nm0172903,Ronald Colman,341,281,40,0,actor,City Lights (1931),216009,8.5
+66,nm0322299,James Gleason,337,281,39,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+66,nm0737259,Will Rogers,326,257,39,0,"actor, writer",City Lights (1931),216009,8.5
+66,nm0000022,Clark Gable,323,252,37,0,actor,City Lights (1931),216009,8.5
+66,nm0002285,Pat O'Brien,314,241,35,0,actor,City Lights (1931),216009,8.5
+66,nm0599910,Robert Montgomery,314,234,35,0,actor,City Lights (1931),216009,8.5
+66,nm0000909,Constance Bennett,306,272,36,0,actress,City Lights (1931),216009,8.5
+66,nm0717046,Frank Reicher,292,261,34,2,"actor, director, producer, writer",City Lights (1931),216009,8.5
+66,nm0566948,Joel McCrea,292,247,33,0,actor,City Lights (1931),216009,8.5
+66,nm0154352,Emile Chautard,282,250,33,2,"actor, director, producer, writer",City Lights (1931),216009,8.5
+66,nm0001870,Robert Young,261,209,29,0,actor,City Lights (1931),216009,8.5
+66,nm0736777,Charles 'Buddy' Rogers,256,219,30,0,actor,City Lights (1931),216009,8.5
+66,nm0000012,Bette Davis,252,189,28,0,actress,City Lights (1931),216009,8.5
+66,nm0681635,Irving Pichel,248,211,28,0,"actor, director",City Lights (1931),216009,8.5
+66,nm0399346,Harold Huber,225,181,25,0,actor,City Lights (1931),216009,8.5
+66,nm0000010,James Cagney,225,164,25,0,actor,City Lights (1931),216009,8.5
+66,nm0237597,Marie Dressler,223,191,28,1,"actress, director, producer, writer",City Lights (1931),216009,8.5
+66,nm0307326,William Gargan,216,185,24,0,actor,City Lights (1931),216009,8.5
+66,nm0001537,Ray Milland,215,191,25,0,actor,City Lights (1931),216009,8.5
+66,nm0000068,Randolph Scott,213,170,24,0,actor,City Lights (1931),216009,8.5
+66,nm0000026,Cary Grant,210,187,24,0,actor,City Lights (1931),216009,8.5
+66,nm0000817,Lew Ayres,207,182,23,0,actor,City Lights (1931),216009,8.5
+66,nm0002935,Moe Howard,196,121,23,0,"actor, writer",City Lights (1931),216009,8.5
+66,nm0001078,Bing Crosby,184,148,21,0,actor,City Lights (1931),216009,8.5
+66,nm0694090,Dick Powell,180,113,20,0,actor,City Lights (1931),216009,8.5
+66,nm0867144,Franchot Tone,180,148,20,0,actor,City Lights (1931),216009,8.5
+66,nm0711855,Gregory Ratoff,179,161,20,1,"actor, producer, writer",City Lights (1931),216009,8.5
+66,nm0482121,Arthur Lake,178,157,23,0,actor,City Lights (1931),216009,8.5
+66,nm0665850,Gail Patrick,171,151,19,0,actress,City Lights (1931),216009,8.5
+66,nm0768178,Joe Sawyer,168,153,19,0,actor,City Lights (1931),216009,8.5
+66,nm0001366,Leslie Howard,162,146,20,6,"actor, producer",City Lights (1931),216009,8.5
+66,nm0001682,Mickey Rooney,158,145,18,0,actor,City Lights (1931),216009,8.5
+66,nm0448790,Larry Kent,153,133,19,0,actor,City Lights (1931),216009,8.5
+66,nm0533247,Kenneth MacKenna,139,131,17,1,"actor, director, producer",City Lights (1931),216009,8.5
+66,nm0001452,Charles Laughton,135,123,16,0,actor,City Lights (1931),216009,8.5
+66,nm0122675,George Burns,129,84,21,0,"actor, writer",City Lights (1931),216009,8.5
+66,nm0185568,Buster Crabbe,126,112,14,0,actor,City Lights (1931),216009,8.5
+66,nm0000007,Humphrey Bogart,111,104,13,0,actor,City Lights (1931),216009,8.5
+66,nm0682734,Arthur Pierson,108,101,12,0,actor,City Lights (1931),216009,8.5
+66,nm0000964,Charles Boyer,105,101,12,0,actor,City Lights (1931),216009,8.5
+66,nm0492463,Anderson Lawler,98,93,11,0,actor,City Lights (1931),216009,8.5
+66,nm0000912,Jack Benny,89,80,12,0,actor,City Lights (1931),216009,8.5
+66,nm0000840,Lucille Ball,89,84,10,0,actress,City Lights (1931),216009,8.5
+66,nm0792130,Ann Sheridan,81,76,9,0,actress,City Lights (1931),216009,8.5
+66,nm0288830,Douglas Fowley,81,78,9,0,actor,City Lights (1931),216009,8.5
+66,nm0637507,Wilfred Noy,76,73,9,2,"actor, director, producer, writer",City Lights (1931),216009,8.5
+66,nm0002046,Brian Donlevy,75,74,10,0,actor,City Lights (1931),216009,8.5
+66,nm0134662,Eddie Cantor,73,71,9,0,"actor, writer",City Lights (1931),216009,8.5
+66,nm0269567,Frank Fay,72,66,8,1,"actor, producer, writer",City Lights (1931),216009,8.5
+66,nm0534045,Fred MacMurray,72,68,8,0,actor,City Lights (1931),216009,8.5
+66,nm0883199,Lester Vail,72,70,8,0,actor,City Lights (1931),216009,8.5
+66,nm0838074,Frederick Sullivan,67,64,10,1,"actor, director, producer",City Lights (1931),216009,8.5
+66,nm0355095,Jack Haley,63,62,7,0,actor,City Lights (1931),216009,8.5
+66,nm0175410,Frank O'Connor,61,60,8,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+66,nm0070361,Robert Benchley,61,56,14,0,"actor, writer",City Lights (1931),216009,8.5
+66,nm0485226,Allan Lane,61,60,7,0,actor,City Lights (1931),216009,8.5
+66,nm0615108,Ken Murray,60,60,7,0,actor,City Lights (1931),216009,8.5
+66,nm0884964,Rudy Vallee,58,55,9,0,actor,City Lights (1931),216009,8.5
+66,nm0719121,Duncan Renaldo,58,57,8,0,"actor, director",City Lights (1931),216009,8.5
+66,nm0106423,George P. Breakston,54,52,6,0,actor,City Lights (1931),216009,8.5
+66,nm0000001,Fred Astaire,45,39,5,0,actor,City Lights (1931),216009,8.5
+66,nm0191950,Robert Cummings,45,41,5,0,actor,City Lights (1931),216009,8.5
+66,nm0925509,Thelma White,37,37,5,0,actress,City Lights (1931),216009,8.5
+66,nm0092168,José Bohr,36,36,4,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+66,nm0001171,Buddy Ebsen,36,33,4,0,actor,City Lights (1931),216009,8.5
+66,nm0000057,David Niven,36,33,4,0,actor,City Lights (1931),216009,8.5
+66,nm0000071,James Stewart,36,35,4,0,actor,City Lights (1931),216009,8.5
+66,nm0204113,Owen Davis Jr.,36,34,4,0,actor,City Lights (1931),216009,8.5
+66,nm0519078,Lotus Long,32,31,4,0,actress,City Lights (1931),216009,8.5
+66,nm0629243,Fred Niblo,27,25,3,3,"actor, director, producer, writer",City Lights (1931),216009,8.5
+66,nm0114974,Charles A. Browne,27,27,3,0,actor,City Lights (1931),216009,8.5
+66,nm0558629,Dorothy Mathews,27,27,3,0,actress,City Lights (1931),216009,8.5
+66,nm0000020,Henry Fonda,27,24,3,0,actor,City Lights (1931),216009,8.5
+66,nm0000028,Rita Hayworth,27,27,3,0,actress,City Lights (1931),216009,8.5
+66,nm0128581,William Cagney,27,26,3,0,actor,City Lights (1931),216009,8.5
+66,nm0718115,John Reinhardt,26,25,4,0,"actor, director, writer",City Lights (1931),216009,8.5
+66,nm0397643,Tom Howard,26,25,4,0,"actor, writer",City Lights (1931),216009,8.5
+66,nm0001362,Bob Hope,25,22,5,0,actor,City Lights (1931),216009,8.5
+66,nm0235836,Eddie Dowling,24,23,3,3,"actor, producer, writer",City Lights (1931),216009,8.5
+66,nm0014724,Helen Ainsworth,24,22,3,0,actress,City Lights (1931),216009,8.5
+66,nm0924824,George White,18,16,2,3,"actor, director, producer, writer",City Lights (1931),216009,8.5
+66,nm0140865,John Carroll,18,18,2,0,actor,City Lights (1931),216009,8.5
+66,nm0808889,Kate Smith,18,18,2,0,actress,City Lights (1931),216009,8.5
+66,nm0330390,Leon Gordon,18,18,2,0,"actor, writer",City Lights (1931),216009,8.5
+66,nm0181003,Ray Corrigan,18,18,2,0,actor,City Lights (1931),216009,8.5
+66,nm0113284,Clarence Brown,17,17,2,5,"actor, director, producer, writer",City Lights (1931),216009,8.5
+66,nm0104794,Philip Brandon,16,16,2,0,actor,City Lights (1931),216009,8.5
+66,nm0150045,Thomas Chalmers,14,14,2,5,"actor, director, producer",City Lights (1931),216009,8.5
+66,nm0520492,Phillips Lord,12,12,2,0,actor,City Lights (1931),216009,8.5
+66,nm0180895,Charles J. Correll,11,9,3,0,actor,City Lights (1931),216009,8.5
+66,nm0331459,Freeman F. Gosden,11,9,3,0,actor,City Lights (1931),216009,8.5
+66,nm0001124,Cecil B. DeMille,9,9,1,58,"actor, director, producer, writer",City Lights (1931),216009,8.5
+66,nm0221423,Brian Desmond Hurst,9,9,1,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+66,nm0057912,Bill Burrud,9,9,1,0,actor,City Lights (1931),216009,8.5
+66,nm0536743,Billy Mahan,9,9,1,0,actor,City Lights (1931),216009,8.5
+66,nm0057983,Don 'Red' Barry,9,9,1,0,actor,City Lights (1931),216009,8.5
+66,nm0640307,Donald O'Connor,9,9,1,0,actor,City Lights (1931),216009,8.5
+66,nm0838047,Ed Sullivan,9,9,1,0,"actor, writer",City Lights (1931),216009,8.5
+66,nm0743407,Frank Ross,9,9,1,0,actor,City Lights (1931),216009,8.5
+66,nm0498585,Howard Leeds,9,9,1,0,actor,City Lights (1931),216009,8.5
+66,nm0908711,Jo Wallace,9,9,1,0,actress,City Lights (1931),216009,8.5
+66,nm0000021,Joan Fontaine,9,9,1,0,actress,City Lights (1931),216009,8.5
+66,nm0536941,John Lee Mahin,9,9,1,0,"actor, writer",City Lights (1931),216009,8.5
+66,nm0000581,Joseph L. Mankiewicz,9,9,1,0,"actor, writer",City Lights (1931),216009,8.5
+66,nm0671559,Julio Peña,9,9,1,0,actor,City Lights (1931),216009,8.5
+66,nm0789247,Lester Sharpe,9,9,1,0,actor,City Lights (1931),216009,8.5
+66,nm0235188,Milt Douglas,9,9,1,0,actor,City Lights (1931),216009,8.5
+66,nm0926636,Richard Whorf,9,9,1,0,actor,City Lights (1931),216009,8.5
+66,nm0656745,Robert Paige,9,9,1,0,actor,City Lights (1931),216009,8.5
+66,nm0502766,Sheldon Leonard,7,7,1,0,actor,City Lights (1931),216009,8.5
+66,nm0809570,Pete Smith,6,6,5,3,"actor, producer",City Lights (1931),216009,8.5
+66,nm0763798,Joseph Santley,6,6,1,0,"actor, director, writer",City Lights (1931),216009,8.5
+66,nm0848165,Truman H. Talley,6,6,1,0,actor,City Lights (1931),216009,8.5
+66,nm0204617,Frank T. Davis,5,5,1,2,"actor, director, producer, writer",City Lights (1931),216009,8.5
+66,nm0694260,Paul Powell,4,4,1,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+66,nm0765069,Tony Sarg,4,4,1,0,actor,City Lights (1931),216009,8.5
+68,nm0304358,Dhirendranath Ganguly,14,12,3,1,"actor, producer",Marner Parey (1931),9,2.8
+68,nm0435753,Kalidas,6,6,1,0,actor,Marner Parey (1931),9,2.8
+68,nm0222484,Sabita Devi,6,6,1,0,actress,Marner Parey (1931),9,2.8
+71,nm0698839,Yakov Protazanov,17,17,3,1,"actor, director, producer, writer",Battleship Potemkin (1925),64999,7.9
+71,nm0476354,Gleb Kuznetsov,14,14,2,0,actor,Battleship Potemkin (1925),64999,7.9
+71,nm0586415,Solomon Mikhoels,12,12,2,0,actor,Battleship Potemkin (1925),64999,7.9
+71,nm0233091,Mark Donskoy,9,9,1,0,"actor, director, writer",Battleship Potemkin (1925),64999,7.9
+74,nm0199841,Bebe Daniels,1791,584,219,0,actress,City Lights (1931),216009,8.5
+74,nm0516001,Harold Lloyd,1519,287,187,1,"actor, director, producer",City Lights (1931),216009,8.5
+74,nm0635667,Mabel Normand,1143,334,197,1,"actress, director, producer, writer",City Lights (1931),216009,8.5
+74,nm0000122,Charles Chaplin,603,173,74,11,"actor, director, producer, writer",City Lights (1931),216009,8.5
+74,nm0000036,Buster Keaton,465,277,68,2,"actor, director, producer, writer",City Lights (1931),216009,8.5
+74,nm0003377,Harry Langdon,444,252,59,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+74,nm0178114,Jackie Cooper,242,143,27,0,actor,City Lights (1931),216009,8.5
+74,nm0783865,Larry Semon,165,81,22,13,"actor, director, producer, writer",City Lights (1931),216009,8.5
+74,nm0921941,Billy West,155,65,27,6,"actor, producer, writer",City Lights (1931),216009,8.5
+74,nm0447339,Matty Kemp,155,132,18,0,actor,City Lights (1931),216009,8.5
+74,nm0310537,Jack Gavin,100,55,12,0,actor,City Lights (1931),216009,8.5
+74,nm0358020,Lloyd Hamilton,99,86,17,7,"actor, producer",City Lights (1931),216009,8.5
+74,nm0382476,Fred Hibbard,94,59,11,0,"actor, director, writer",City Lights (1931),216009,8.5
+74,nm0749484,Wesley Ruggles,85,43,11,2,"actor, director, producer, writer",City Lights (1931),216009,8.5
+74,nm0820461,Malcolm St. Clair,81,62,11,2,"actor, director, producer, writer",City Lights (1931),216009,8.5
+74,nm0183278,Pierre Couderc,55,41,7,0,"actor, director, writer",City Lights (1931),216009,8.5
+74,nm0083063,Josh Binney,54,43,6,0,actor,City Lights (1931),216009,8.5
+74,nm0391972,Milton Holmes,53,43,6,0,actor,City Lights (1931),216009,8.5
+74,nm0166741,Harry Clifton,36,33,4,1,"actor, producer",City Lights (1931),216009,8.5
+74,nm0734169,Joe Rock,33,19,11,17,"actor, director, producer, writer",City Lights (1931),216009,8.5
+74,nm0182579,Lou Costello,33,33,4,0,actor,City Lights (1931),216009,8.5
+74,nm0640253,Bob O'Connor,27,27,3,0,actor,City Lights (1931),216009,8.5
+74,nm0002104,Paulette Goddard,26,25,3,0,actress,City Lights (1931),216009,8.5
+74,nm0037161,Harry Arras,17,17,3,1,"actor, producer",City Lights (1931),216009,8.5
+74,nm0176846,Jack Coogan Sr.,16,10,3,2,"actor, producer, writer",City Lights (1931),216009,8.5
+74,nm0215874,Hampton Del Ruth,15,11,2,0,"actor, director, writer",City Lights (1931),216009,8.5
+74,nm0068419,Monta Bell,9,9,1,20,"actor, director, producer, writer",City Lights (1931),216009,8.5
+74,nm0289381,Bryan Foy,9,9,1,13,"actor, director, producer, writer",City Lights (1931),216009,8.5
+74,nm0624756,Roy William Neill,9,9,1,3,"actor, director, producer",City Lights (1931),216009,8.5
+74,nm0209331,M. de la Parelle,9,9,1,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+74,nm0347451,Fred Guiol,9,9,1,0,"actor, director, writer",City Lights (1931),216009,8.5
+74,nm0204843,Joan Davis,9,9,1,0,actress,City Lights (1931),216009,8.5
+74,nm1106956,John W. Jackson,9,9,1,0,actor,City Lights (1931),216009,8.5
+74,nm0107756,Lou Breslow,9,9,1,0,"actor, director, writer",City Lights (1931),216009,8.5
+74,nm0779682,Ramblin' Tommy Scott,9,9,1,0,actor,City Lights (1931),216009,8.5
+74,nm0770852,Joseph M. Schenck,7,7,1,38,"actor, producer",City Lights (1931),216009,8.5
+74,nm0730386,Jess Robbins,7,7,1,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+74,nm0341185,Frank Griffin,3,3,1,2,"actor, director, producer, writer",City Lights (1931),216009,8.5
+74,nm0934595,Walter Winchell,2,2,1,0,"actor, writer",City Lights (1931),216009,8.5
+77,nm0205984,Herbert M. Dawley,5,3,2,13,"actor, director, producer",The Ghost of Slumber Mountain (1918),434,6.0
+80,nm0636620,Constantin Nottara,9,9,1,0,"actor, writer",The Independence of Romania (1912),288,6.3
+85,nm0888575,William Vance,3,3,1,1,"actor, director, producer",The Hearts of Age (1934),1336,5.4
+99,nm0808310,George Albert Smith,1,1,1,21,"actor, director, producer",A Kiss in the Tunnel (1899),1856,6.1
+103,nm0706795,Himanshu Rai,21,18,3,6,"actor, director, producer, writer",A Throw of Dice (1929),1135,6.5
+104,nm0349785,Alice Guy,2,2,1,11,"actress, director, producer, writer","La fée aux choux, ou la naissance des enfants (1900)",380,5.3
+108,nm0098376,Hobart Bosworth,1070,707,150,12,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0597995,William V. Mong,994,725,133,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0611804,Jack Mulhall,958,695,120,1,"actor, producer",City Lights (1931),216009,8.5
+108,nm0427659,Buck Jones,937,560,125,8,"actor, producer, writer",City Lights (1931),216009,8.5
+108,nm0316995,Hoot Gibson,873,485,114,12,"actor, producer, writer",City Lights (1931),216009,8.5
+108,nm0646851,Guy Oliver,835,480,105,0,actor,City Lights (1931),216009,8.5
+108,nm0403636,Paul Hurst,765,490,101,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0285643,Francis Ford,719,489,109,4,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0531962,Wallace MacDonald,713,549,89,0,"actor, director, writer",City Lights (1931),216009,8.5
+108,nm0221488,William Desmond,712,479,94,1,"actor, producer",City Lights (1931),216009,8.5
+108,nm0651627,Bud Osborne,704,404,93,1,"actor, producer",City Lights (1931),216009,8.5
+108,nm0712660,Herbert Rawlinson,701,553,96,2,"actor, producer",City Lights (1931),216009,8.5
+108,nm0168595,Lew Cody,687,529,88,1,"actor, producer, writer",City Lights (1931),216009,8.5
+108,nm0751510,William Russell,640,423,96,4,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0569645,J.P. McGowan,619,366,90,17,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0562770,Ken Maynard,573,297,66,16,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0610268,Jack Mower,524,427,80,5,"actor, producer",City Lights (1931),216009,8.5
+108,nm0806565,Phillips Smalley,520,402,75,12,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0134831,Yakima Canutt,508,299,61,2,"actor, producer, writer",City Lights (1931),216009,8.5
+108,nm0616729,Harry Myers,507,424,67,2,"actor, director, producer",City Lights (1931),216009,8.5
+108,nm0907885,Johnnie Walker,507,408,70,1,"actor, director, producer",City Lights (1931),216009,8.5
+108,nm0712776,Charles Ray,505,348,73,10,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0425903,Noble Johnson,495,432,62,1,"actor, producer",City Lights (1931),216009,8.5
+108,nm0674741,Jack Perrin,492,328,65,0,actor,City Lights (1931),216009,8.5
+108,nm0101955,William Boyd,489,380,58,0,actor,City Lights (1931),216009,8.5
+108,nm0841797,Gloria Swanson,471,349,62,2,"actress, producer",City Lights (1931),216009,8.5
+108,nm0124877,David Butler,434,351,54,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0540575,Leo D. Maloney,398,173,64,9,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0000078,John Wayne,396,267,45,0,actor,City Lights (1931),216009,8.5
+108,nm0366586,William S. Hart,386,192,68,17,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0202590,Dorothy Davenport,365,195,73,6,"actress, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0001196,Douglas Fairbanks,359,233,42,19,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0322551,J. Frank Glendon,353,315,46,2,"actor, producer",City Lights (1931),216009,8.5
+108,nm0192110,Lester Cuneo,349,181,56,0,actor,City Lights (1931),216009,8.5
+108,nm0570639,Burr McIntosh,336,296,43,1,"actor, producer",City Lights (1931),216009,8.5
+108,nm0607273,Pete Morrison,329,232,54,1,"actor, producer",City Lights (1931),216009,8.5
+108,nm0007215,King Baggot,325,239,58,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0193793,Bob Custer,321,206,43,2,"actor, producer",City Lights (1931),216009,8.5
+108,nm0037761,George K. Arthur,318,264,41,1,"actor, producer",City Lights (1931),216009,8.5
+108,nm0533764,Douglas MacLean,312,234,40,14,"actor, producer, writer",City Lights (1931),216009,8.5
+108,nm0192062,Grace Cunard,310,237,43,3,"actress, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0425049,Emory Johnson,304,199,46,5,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0341503,Gordon Griffith,304,265,40,0,"actor, writer",City Lights (1931),216009,8.5
+108,nm0058191,Wesley Barry,296,255,37,0,actor,City Lights (1931),216009,8.5
+108,nm0366742,Pat Hartigan,291,258,37,0,"actor, director",City Lights (1931),216009,8.5
+108,nm0938923,Anna May Wong,291,259,35,0,actress,City Lights (1931),216009,8.5
+108,nm0370564,Sessue Hayakawa,284,188,42,4,"actor, producer, writer",City Lights (1931),216009,8.5
+108,nm0408429,John Ince,283,254,34,4,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0522593,Louise Lovely,274,182,40,3,"actress, producer",City Lights (1931),216009,8.5
+108,nm0391847,Helen Holmes,270,175,39,2,"actress, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0213151,Ashton Dearholt,261,173,43,4,"actor, director, producer",City Lights (1931),216009,8.5
+108,nm0267914,Dustin Farnum,261,200,37,0,actor,City Lights (1931),216009,8.5
+108,nm0758457,Monroe Salisbury,260,183,38,1,"actor, producer",City Lights (1931),216009,8.5
+108,nm0168565,Bill Cody,246,171,36,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0341586,Raymond Griffith,232,203,29,1,"actor, producer, writer",City Lights (1931),216009,8.5
+108,nm0884388,Rudolph Valentino,216,190,27,0,actor,City Lights (1931),216009,8.5
+108,nm0057585,Bessie Barriscale,213,150,32,1,"actress, producer",City Lights (1931),216009,8.5
+108,nm0355550,Ella Hall,212,150,31,1,"actress, producer",City Lights (1931),216009,8.5
+108,nm0624714,Marshall Neilan,211,132,35,13,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0534957,Cleo Madison,209,172,35,2,"actress, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0097648,Frank Borzage,207,123,44,14,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0848234,Richard Talmadge,200,172,29,10,"actor, producer",City Lights (1931),216009,8.5
+108,nm0653253,Henry Otto,200,101,37,2,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0444641,Frank Keenan,200,164,26,0,"actor, writer",City Lights (1931),216009,8.5
+108,nm0432216,Rupert Julian,194,132,30,2,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0738082,Ruth Roland,193,155,27,4,"actress, producer, writer",City Lights (1931),216009,8.5
+108,nm0366457,Neal Hart,186,134,32,4,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0322170,Louise Glaum,183,120,28,0,actress,City Lights (1931),216009,8.5
+108,nm0531806,Katherine MacDonald,179,155,25,2,"actress, producer",City Lights (1931),216009,8.5
+108,nm0002233,Erich von Stroheim,169,153,20,3,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0941782,William Worthington,160,146,21,1,"actor, director, producer",City Lights (1931),216009,8.5
+108,nm0840042,A. Edward Sutherland,153,139,20,2,"actor, director, producer",City Lights (1931),216009,8.5
+108,nm0689737,Eddie Polo,152,123,20,2,"actor, director, producer",City Lights (1931),216009,8.5
+108,nm0070791,Kingsley Benedict,152,135,20,0,"actor, writer",City Lights (1931),216009,8.5
+108,nm0521115,Harry Lorraine,144,118,19,1,"actor, producer",City Lights (1931),216009,8.5
+108,nm0623417,Alla Nazimova,142,113,17,7,"actress, producer, writer",City Lights (1931),216009,8.5
+108,nm0176699,Jack Conway,128,95,24,2,"actor, director, producer",City Lights (1931),216009,8.5
+108,nm0930656,George A. Williams,123,107,19,0,actor,City Lights (1931),216009,8.5
+108,nm0933805,Margery Wilson,121,97,17,1,"actress, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0454771,Henry King,118,72,22,8,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0166730,Elmer Clifton,114,78,18,2,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0064819,George Beban,109,93,14,2,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0568679,Ivor McFadden,107,75,15,1,"actor, producer",City Lights (1931),216009,8.5
+108,nm0011535,Victor Adamson,105,97,12,8,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0932957,Al Wilson,105,84,14,2,"actor, producer, writer",City Lights (1931),216009,8.5
+108,nm0502979,James B. Leong,102,99,13,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0357219,Harry Ham,102,85,14,0,actor,City Lights (1931),216009,8.5
+108,nm0941562,Duke Worne,99,75,18,10,"actor, director, producer",City Lights (1931),216009,8.5
+108,nm0515979,Frank Lloyd,96,58,18,12,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0532349,Norval MacGregor,96,91,12,1,"actor, director, producer",City Lights (1931),216009,8.5
+108,nm0214924,Carter DeHaven,90,75,16,3,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0909825,Raoul Walsh,89,49,17,13,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0916665,Lois Weber,88,58,19,19,"actress, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0853336,William Desmond Taylor,85,50,23,3,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0712730,Albert Ray,81,66,12,2,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0944797,Frank Yaconelli,78,67,9,1,"actor, director, producer",City Lights (1931),216009,8.5
+108,nm0718469,Charles Reisner,76,72,9,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0502752,Robert Z. Leonard,70,44,14,26,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0377126,Hobart Henley,70,62,10,4,"actor, director, producer",City Lights (1931),216009,8.5
+108,nm0000406,John Ford,69,40,13,8,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0722385,Billie Rhodes,67,46,13,1,"actress, producer",City Lights (1931),216009,8.5
+108,nm0421104,Al J. Jennings,65,63,9,1,"actor, producer, writer",City Lights (1931),216009,8.5
+108,nm0395023,James W. Horne,63,30,10,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0000810,Gene Autry,63,51,7,0,actor,City Lights (1931),216009,8.5
+108,nm0366689,David Hartford,62,58,8,3,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0018457,Gus Alexander,60,46,8,0,actor,City Lights (1931),216009,8.5
+108,nm0392709,Allen Holubar,59,50,8,4,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0498174,Rowland V. Lee,56,53,8,8,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0422425,Austen Jewell,56,55,7,0,actor,City Lights (1931),216009,8.5
+108,nm0831872,Fred Stone,55,51,7,1,"actor, producer",City Lights (1931),216009,8.5
+108,nm0208657,Joseph De Grasse,54,44,9,4,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0590102,Marilyn Mills,53,36,8,2,"actress, producer, writer",City Lights (1931),216009,8.5
+108,nm0523893,Arthur Lubin,53,52,7,0,"actor, director",City Lights (1931),216009,8.5
+108,nm0905729,George Waggner,51,51,7,0,"actor, writer",City Lights (1931),216009,8.5
+108,nm0075318,William Berke,50,38,9,7,"actor, producer, writer",City Lights (1931),216009,8.5
+108,nm0347345,Texas Guinan,50,49,7,0,actress,City Lights (1931),216009,8.5
+108,nm0781292,Edward Sedgwick,49,49,7,3,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0794109,Nell Shipman,49,45,7,0,"actress, director, writer",City Lights (1931),216009,8.5
+108,nm0422181,George Jessel,48,44,6,0,"actor, writer",City Lights (1931),216009,8.5
+108,nm0048853,Rex 'Snowy' Baker,47,42,7,2,"actor, producer",City Lights (1931),216009,8.5
+108,nm0663923,William Parsons,46,42,10,5,"actor, producer",City Lights (1931),216009,8.5
+108,nm0503777,Mervyn LeRoy,44,44,5,0,"actor, director, writer",City Lights (1931),216009,8.5
+108,nm0256221,John Emerson,42,41,5,8,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0645328,Manuel R. Ojeda,39,39,5,1,"actor, director, producer",City Lights (1931),216009,8.5
+108,nm0822801,Richard Stanton,38,31,6,4,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0417646,Elsie Janis,35,24,5,1,"actress, producer, writer",City Lights (1931),216009,8.5
+108,nm0588003,Winston Miller,35,34,4,0,actor,City Lights (1931),216009,8.5
+108,nm0064303,Clem Beauchamp,34,33,5,0,actor,City Lights (1931),216009,8.5
+108,nm0376221,Joseph Henabery,33,30,6,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0454734,George King,32,32,4,6,"actor, director, producer",City Lights (1931),216009,8.5
+108,nm0417017,Wharton James,29,29,4,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0454792,Jack King,27,24,3,2,"actor, producer",City Lights (1931),216009,8.5
+108,nm0534073,Walter MacNamara,26,26,3,2,"actor, producer, writer",City Lights (1931),216009,8.5
+108,nm0337586,Alfred E. Green,25,24,4,2,"actor, director, producer",City Lights (1931),216009,8.5
+108,nm0806143,Edward Sloman,25,25,4,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0507150,Edgar Lewis,25,25,3,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0291548,Sidney Franklin,25,25,3,0,"actor, director, writer",City Lights (1931),216009,8.5
+108,nm0564447,Harry McCabe,23,22,3,0,actor,City Lights (1931),216009,8.5
+108,nm0090007,John G. Blystone,21,11,4,7,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0577654,George Melford,18,12,4,5,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0807742,Clifford Smith,18,18,4,4,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0912817,Edward Warren,18,18,2,4,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0247484,B. Reeves Eason,18,16,3,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0886754,W.S. Van Dyke,17,17,2,3,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0842521,Charles Swickard,17,15,3,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0569697,Robert F. McGowan,16,15,2,31,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0896542,King Vidor,16,16,2,12,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0235035,Earl Douglas,16,16,2,0,actor,City Lights (1931),216009,8.5
+108,nm0003373,James P. Hogan,15,15,2,2,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0783629,Edgar Selwyn,15,15,2,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0920074,William A. Wellman,14,14,2,3,"actor, director, producer",City Lights (1931),216009,8.5
+108,nm0000926,Milton Berle,14,14,2,0,actor,City Lights (1931),216009,8.5
+108,nm0376448,Theodore Henderson,13,13,2,3,"actor, producer",City Lights (1931),216009,8.5
+108,nm0020474,E.H. Allen,12,12,2,3,"actor, producer",City Lights (1931),216009,8.5
+108,nm0306875,Cyril Gardner,12,10,4,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0242412,Scott R. Dunlap,12,12,2,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0283444,Emmett J. Flynn,11,11,2,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0953123,Darryl F. Zanuck,9,9,1,27,"actor, producer, writer",City Lights (1931),216009,8.5
+108,nm0454535,Burton L. King,9,9,1,21,"actor, director, producer",City Lights (1931),216009,8.5
+108,nm0954312,B.F. Zeidman,9,9,1,12,"actor, producer",City Lights (1931),216009,8.5
+108,nm0916125,Harry S. Webb,9,9,1,11,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0689471,Harry A. Pollard,9,6,2,7,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0210352,William C. de Mille,9,9,1,5,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0721840,Lynn Reynolds,9,6,2,2,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0323325,Elinor Glyn,9,9,1,2,"actress, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0001008,Frank Capra,9,9,1,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0932035,George M. Williamson,9,9,1,1,"actor, producer",City Lights (1931),216009,8.5
+108,nm0059106,Charles Barton,9,9,1,0,"actor, director",City Lights (1931),216009,8.5
+108,nm0750357,Damon Runyon,9,9,1,0,"actor, writer",City Lights (1931),216009,8.5
+108,nm0547969,Frank Marion,9,9,1,0,actor,City Lights (1931),216009,8.5
+108,nm0176347,Gino Conti,9,9,1,0,actor,City Lights (1931),216009,8.5
+108,nm0583159,Henry D. Meyer,9,9,1,0,actor,City Lights (1931),216009,8.5
+108,nm0020598,J.J. Allen,9,9,1,0,actor,City Lights (1931),216009,8.5
+108,nm0604856,M.D. Morgan,9,9,1,0,actor,City Lights (1931),216009,8.5
+108,nm0770507,Maceo Bruce Sheffield,9,9,1,0,actor,City Lights (1931),216009,8.5
+108,nm0693338,Peter Potter,9,9,1,0,actor,City Lights (1931),216009,8.5
+108,nm0788637,Ted Shapiro,9,9,1,0,actor,City Lights (1931),216009,8.5
+108,nm0925592,William White,9,9,1,0,actor,City Lights (1931),216009,8.5
+108,nm0606094,Walter Morosco,8,8,1,9,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm1342590,Frank D. Hutter,8,8,1,1,"actor, producer",City Lights (1931),216009,8.5
+108,nm0001013,Harry Carey Jr.,8,8,1,0,actor,City Lights (1931),216009,8.5
+108,nm0715716,Theodore Reed,8,8,1,0,"actor, director, writer",City Lights (1931),216009,8.5
+108,nm0734244,Al Rockett,7,7,1,11,"actor, producer",City Lights (1931),216009,8.5
+108,nm0314886,Paul Gerson,7,7,1,8,"actor, producer",City Lights (1931),216009,8.5
+108,nm0736614,Sid Rogell,7,7,1,3,"actor, producer",City Lights (1931),216009,8.5
+108,nm0022622,Al Alt,7,7,4,2,"actor, producer",City Lights (1931),216009,8.5
+108,nm0585495,Edwin Middleton,7,7,1,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0413045,Jacques Jaccard,7,7,1,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0358047,Mary E. Hamilton,7,7,1,1,"actress, producer",City Lights (1931),216009,8.5
+108,nm0210350,Agnes de Mille,7,7,1,0,actress,City Lights (1931),216009,8.5
+108,nm0540862,Paul Malvern,6,6,1,26,"actor, producer",City Lights (1931),216009,8.5
+108,nm0101038,Charles R. Bowers,6,6,6,4,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0496475,George W. Lederer,6,6,1,3,"actor, director, producer",City Lights (1931),216009,8.5
+108,nm0569153,Patrick Sylvester McGeeney,6,6,2,1,"actor, director, producer",City Lights (1931),216009,8.5
+108,nm0166259,Roy Clements,6,6,1,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0236980,Oliver Drake,6,6,1,0,"actor, director, writer",City Lights (1931),216009,8.5
+108,nm0918318,Lawrence Weingarten,5,5,1,4,"actor, producer",City Lights (1931),216009,8.5
+108,nm0281808,Victor Fleming,4,4,1,5,"actor, director, producer",City Lights (1931),216009,8.5
+108,nm1327636,William 'Bill' Mix,4,4,1,3,"actor, producer",City Lights (1931),216009,8.5
+108,nm0589176,Ranger Bill Miller,4,4,1,0,actor,City Lights (1931),216009,8.5
+108,nm0233159,Leonard Doogood,3,3,1,1,"actor, director, producer, writer",City Lights (1931),216009,8.5
+108,nm0268075,Charles Farra,2,2,1,1,"actor, producer",City Lights (1931),216009,8.5
+108,nm0091767,Francis Boggs,1,1,1,0,"actor, director",City Lights (1931),216009,8.5
+111,nm0898337,Arthur Villesid,2,2,1,0,actor,The Woodpigeon Patrol (1930),10,5.0
+112,nm0841889,Karin Swanström,316,201,36,2,"actress, director, producer",Häxan (1922),19080,7.6
+112,nm0803705,Victor Sjöström,183,115,25,3,"actor, director, producer, writer",Häxan (1922),19080,7.6
+112,nm0488932,Viggo Larsen,122,45,36,1,"actor, director, producer, writer",Häxan (1922),19080,7.6
+112,nm0117313,Vilhelm Bryde,88,71,10,4,"actor, director, producer",Häxan (1922),19080,7.6
+112,nm0699637,Valdemar Psilander,65,53,9,0,actor,Häxan (1922),19080,7.6
+112,nm0159725,Benjamin Christensen,48,45,6,1,"actor, director, producer, writer",Häxan (1922),19080,7.6
+112,nm0583207,Johannes Meyer,47,45,6,1,"actor, director, producer",Häxan (1922),19080,7.6
+112,nm0641045,Alice O'Fredericks,38,36,5,1,"actress, director, producer, writer",Häxan (1922),19080,7.6
+112,nm0116307,John W. Brunius,36,35,4,1,"actor, director, producer, writer",Häxan (1922),19080,7.6
+112,nm0000006,Ingrid Bergman,36,33,4,0,actress,Häxan (1922),19080,7.6
+112,nm0088881,August Blom,34,19,7,0,"actor, director",Häxan (1922),19080,7.6
+112,nm0353528,Helge Hagerman,27,27,3,0,actor,Häxan (1922),19080,7.6
+112,nm0876343,Teuvo Tulio,26,26,3,0,"actor, writer",Häxan (1922),19080,7.6
+112,nm0830249,Mauritz Stiller,19,17,4,1,"actor, director, producer, writer",Häxan (1922),19080,7.6
+112,nm0483943,Fritz Lamprecht,15,13,2,0,actor,Häxan (1922),19080,7.6
+112,nm0845453,Kristina Söderbaum,10,10,2,0,actress,Häxan (1922),19080,7.6
+112,nm0165803,Stellan Claësson,9,9,1,4,"actor, producer",Häxan (1922),19080,7.6
+112,nm0074069,Erling Bergendahl,9,9,1,1,"actor, director, producer, writer",Häxan (1922),19080,7.6
+112,nm0596411,Harald Molander,9,9,1,0,actor,Häxan (1922),19080,7.6
+112,nm0510285,Henning Liljegren,9,9,1,0,actor,Häxan (1922),19080,7.6
+112,nm0197173,Nils Dahlström,9,9,1,0,actor,Häxan (1922),19080,7.6
+112,nm0960205,Jarl Östman,8,8,1,0,"actor, writer",Häxan (1922),19080,7.6
+112,nm0084902,Lars Björck,5,5,1,4,"actor, producer",Häxan (1922),19080,7.6
+112,nm0647763,Ole Olsen,2,2,1,6,"actor, director, producer, writer",Häxan (1922),19080,7.6
+114,nm0409960,Takako Irie,47,34,6,2,"actress, producer","I Was Born, But... (1932)",6728,7.8
+114,nm1655495,Hikaru Yamanouchi,44,32,6,0,actor,"I Was Born, But... (1932)",6728,7.8
+114,nm1586462,Den Ôhinata,32,29,4,0,actor,"I Was Born, But... (1932)",6728,7.8
+114,nm0051765,Tsumasaburô Bandô,22,22,3,0,actor,"I Was Born, But... (1932)",6728,7.8
+114,nm0651515,Kaoru Osanai,9,9,1,1,"actor, producer","I Was Born, But... (1932)",6728,7.8
+114,nm0051502,Junzaburô Ban,9,9,1,0,actor,"I Was Born, But... (1932)",6728,7.8
+114,nm1772960,Shôtarô Sera,8,8,1,0,actor,"I Was Born, But... (1932)",6728,7.8
+115,nm0405977,Paul Hörbiger,722,425,83,0,actor,Metropolis (1927),200714,8.2
+115,nm0891998,Conrad Veidt,689,468,88,2,"actor, director, producer",Metropolis (1927),200714,8.2
+115,nm0002161,Hans Albers,613,424,78,0,actor,Metropolis (1927),200714,8.2
+115,nm0002154,Alfred Abel,499,355,61,1,"actor, director, producer",Metropolis (1927),200714,8.2
+115,nm0874781,Olga Tschechowa,492,356,58,3,"actress, director, producer",Metropolis (1927),200714,8.2
+115,nm0691995,Henny Porten,452,297,72,25,"actress, producer",Metropolis (1927),200714,8.2
+115,nm0417837,Emil Jannings,449,309,64,1,"actor, producer",Metropolis (1927),200714,8.2
+115,nm0313447,Heinrich George,374,302,45,0,"actor, director",Metropolis (1927),200714,8.2
+115,nm0018437,Georg Alexander,346,260,47,6,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0603803,Erna Morena,289,215,38,1,"actress, producer, writer",Metropolis (1927),200714,8.2
+115,nm0403917,Károly Huszár,257,228,30,0,actor,Metropolis (1927),200714,8.2
+115,nm0373928,Paul Heidemann,253,203,29,0,actor,Metropolis (1927),200714,8.2
+115,nm0004464,Heinz Rühmann,251,185,28,0,actor,Metropolis (1927),200714,8.2
+115,nm0917467,Paul Wegener,232,180,29,1,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0226189,William Dieterle,222,165,29,2,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0003425,Asta Nielsen,220,170,32,1,"actress, producer",Metropolis (1927),200714,8.2
+115,nm0585785,Hans Mierendorff,218,189,27,0,"actor, director",Metropolis (1927),200714,8.2
+115,nm0286924,Willi Forst,211,169,24,2,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0778306,Reinhold Schünzel,191,145,24,4,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0250790,Aud Egede-Nissen,179,143,28,8,"actress, producer",Metropolis (1927),200714,8.2
+115,nm0389364,Ernst Hofmann,173,154,22,1,"actor, producer",Metropolis (1927),200714,8.2
+115,nm0345073,Gustaf Gründgens,151,127,17,0,"actor, director, writer",Metropolis (1927),200714,8.2
+115,nm0547998,Oscar Marion,133,122,16,0,actor,Metropolis (1927),200714,8.2
+115,nm0682176,Harry Piel,129,80,15,8,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0016290,Marcella Albani,125,119,16,1,"actress, producer, writer",Metropolis (1927),200714,8.2
+115,nm0923377,Ruth Weyher,124,112,15,1,"actress, producer",Metropolis (1927),200714,8.2
+115,nm0648565,Anny Ondra,122,103,15,4,"actress, producer",Metropolis (1927),200714,8.2
+115,nm0681726,Lupu Pick,118,95,18,20,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0652661,Ossi Oswalda,113,69,19,0,actress,Metropolis (1927),200714,8.2
+115,nm0523932,Ernst Lubitsch,109,63,27,9,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0440986,Bruno Kastner,109,93,15,0,actor,Metropolis (1927),200714,8.2
+115,nm0233345,Lucy Doraine,102,86,18,1,"actress, producer",Metropolis (1927),200714,8.2
+115,nm0624601,Ernst Reicher,99,91,15,1,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0027992,Fern Andra,97,91,16,6,"actress, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0248125,Carl Ebert,97,83,12,0,actor,Metropolis (1927),200714,8.2
+115,nm0092128,Michael Bohnen,96,92,11,0,actor,Metropolis (1927),200714,8.2
+115,nm0725234,Ellen Richter,95,83,12,5,"actress, producer",Metropolis (1927),200714,8.2
+115,nm0311413,Otto Gebühr,91,84,11,0,actor,Metropolis (1927),200714,8.2
+115,nm0220131,Hans Deppe,90,84,10,0,"actor, director, writer",Metropolis (1927),200714,8.2
+115,nm0872112,Luis Trenker,80,66,10,1,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0459029,Rudolf Klein-Rhoden,80,72,10,0,actor,Metropolis (1927),200714,8.2
+115,nm0414294,Maria Jacobini,76,73,9,0,actress,Metropolis (1927),200714,8.2
+115,nm0280766,Olaf Fjord,76,73,9,0,actor,Metropolis (1927),200714,8.2
+115,nm0074949,Elisabeth Bergner,74,68,9,0,actress,Metropolis (1927),200714,8.2
+115,nm0618054,Anna Müller-Lincke,69,67,8,0,actress,Metropolis (1927),200714,8.2
+115,nm0016697,Luciano Albertini,65,58,9,2,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0913188,Aruth Wartan,65,50,8,0,actor,Metropolis (1927),200714,8.2
+115,nm0484395,Max Landa,61,57,8,1,"actor, producer",Metropolis (1927),200714,8.2
+115,nm0729140,Kenneth Rive,60,59,7,0,actor,Metropolis (1927),200714,8.2
+115,nm0851438,Richard Tauber,57,55,7,1,"actor, producer",Metropolis (1927),200714,8.2
+115,nm0108943,Gaston Briese,54,51,6,0,actor,Metropolis (1927),200714,8.2
+115,nm0765852,Alexander Sascha,53,50,6,0,actor,Metropolis (1927),200714,8.2
+115,nm0373699,Ferenc Hegedüs,52,47,7,0,actor,Metropolis (1927),200714,8.2
+115,nm0213638,Bruno Decarli,50,48,7,0,actor,Metropolis (1927),200714,8.2
+115,nm0726166,Leni Riefenstahl,49,35,7,3,"actress, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0937339,Hilde Woerner,48,46,6,0,actress,Metropolis (1927),200714,8.2
+115,nm0420699,Ria Jende,47,42,7,2,"actress, producer",Metropolis (1927),200714,8.2
+115,nm0014974,Irén Ágay,45,27,5,0,actress,Metropolis (1927),200714,8.2
+115,nm0659558,Mia Pankau,43,39,5,0,actress,Metropolis (1927),200714,8.2
+115,nm0001443,Hedy Lamarr,36,35,4,0,actress,Metropolis (1927),200714,8.2
+115,nm0937377,Max Wogritsch,35,35,5,0,actor,Metropolis (1927),200714,8.2
+115,nm0524999,Ernst Ludwig,34,27,4,0,actor,Metropolis (1927),200714,8.2
+115,nm0325670,Sidney M. Goldin,33,33,4,3,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0455992,Herbert Kiper,32,25,4,0,actor,Metropolis (1927),200714,8.2
+115,nm0814222,Emil Sondermann,31,20,6,2,"actor, producer, writer",Metropolis (1927),200714,8.2
+115,nm0559305,Ernst Matray,31,30,5,1,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0871215,Ludwig Trautmann,31,30,5,0,actor,Metropolis (1927),200714,8.2
+115,nm0243017,Erich Dunskus,27,26,3,1,"actor, producer",Metropolis (1927),200714,8.2
+115,nm0016826,Hans Albin,27,23,3,0,actor,Metropolis (1927),200714,8.2
+115,nm0336379,Louis Graveure,27,23,3,0,actor,Metropolis (1927),200714,8.2
+115,nm0894675,Hedda Vernon,25,25,3,0,actress,Metropolis (1927),200714,8.2
+115,nm0560410,André Mattoni,24,24,3,0,actor,Metropolis (1927),200714,8.2
+115,nm0226879,Lotte Neumann,23,22,5,0,"actress, writer",Metropolis (1927),200714,8.2
+115,nm0596251,Hella Moja,23,23,3,0,"actress, writer",Metropolis (1927),200714,8.2
+115,nm0954673,Frederic Zelnik,21,20,3,18,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0956428,Gyula Zilahi,20,19,3,1,"actor, director, producer",Metropolis (1927),200714,8.2
+115,nm0412666,Karel Lamac,18,16,2,6,"actor, director, producer",Metropolis (1927),200714,8.2
+115,nm0092294,Ilse Bois,18,15,5,0,actress,Metropolis (1927),200714,8.2
+115,nm0903667,George Voskovec,18,17,2,0,"actor, writer",Metropolis (1927),200714,8.2
+115,nm0921276,Jan Werich,18,17,2,0,"actor, writer",Metropolis (1927),200714,8.2
+115,nm0002134,Paul Henreid,18,17,2,0,actor,Metropolis (1927),200714,8.2
+115,nm0826014,Walter Steiner,18,18,2,0,actor,Metropolis (1927),200714,8.2
+115,nm0843409,Lu Synd,17,15,4,1,"actress, producer",Metropolis (1927),200714,8.2
+115,nm0856576,C.W. Tetting,17,17,2,0,actor,Metropolis (1927),200714,8.2
+115,nm0921839,Paula Wessely,17,16,2,0,actress,Metropolis (1927),200714,8.2
+115,nm0831499,Bob Stoll,15,15,2,1,"actor, producer, writer",Metropolis (1927),200714,8.2
+115,nm0832605,Olaf Storm,14,14,2,0,actor,Metropolis (1927),200714,8.2
+115,nm0298605,Werner Funck,14,14,2,0,"actor, director",Metropolis (1927),200714,8.2
+115,nm0872326,Wanda Treumann,12,10,4,2,"actress, producer",Metropolis (1927),200714,8.2
+115,nm0919976,Arthur Wellin,11,11,2,2,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0361518,Emmerich Hanus,11,11,2,0,"actor, director, writer",Metropolis (1927),200714,8.2
+115,nm0203452,Paul Davidson,9,9,1,40,"actor, producer",Metropolis (1927),200714,8.2
+115,nm0652650,Richard Oswald,9,9,1,28,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0251456,Richard Eichberg,9,9,2,25,"actor, director, producer",Metropolis (1927),200714,8.2
+115,nm8425237,nm8425237,9,9,1,25,"actor, producer",Metropolis (1927),200714,8.2
+115,nm0417905,Jenö Janovics,9,9,1,11,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm8425238,nm8425238,9,9,1,6,"actor, producer",Metropolis (1927),200714,8.2
+115,nm0483944,Gerhard Lamprecht,9,9,1,4,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0005713,Karl Freund,9,9,1,4,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0655065,Georg Wilhelm Pabst,9,9,1,3,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0051019,Béla Balogh,9,9,1,2,"actor, director, producer",Metropolis (1927),200714,8.2
+115,nm0017614,Carlo Aldini,9,9,1,1,"actor, director, producer",Metropolis (1927),200714,8.2
+115,nm0278807,Adolf Fischer,9,9,1,0,actor,Metropolis (1927),200714,8.2
+115,nm0797541,Evaristo Signorini,9,9,1,0,actor,Metropolis (1927),200714,8.2
+115,nm0194813,Hans Cürlis,9,9,1,0,actor,Metropolis (1927),200714,8.2
+115,nm0728753,Hans Ritter,9,9,1,0,"actor, writer",Metropolis (1927),200714,8.2
+115,nm1894707,Heinz Ullstein,9,9,1,0,actor,Metropolis (1927),200714,8.2
+115,nm0803790,Kurt Skalden,9,9,1,0,actor,Metropolis (1927),200714,8.2
+115,nm0869252,Walter Tost,9,9,1,0,actor,Metropolis (1927),200714,8.2
+115,nm0414985,Georg Jacoby,8,8,1,2,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0356818,Alfred Halm,8,8,1,0,"actor, director, writer",Metropolis (1927),200714,8.2
+115,nm0152834,Erik Charell,8,8,1,0,"actor, director",Metropolis (1927),200714,8.2
+115,nm0375871,Jenö Heltai,7,7,1,1,"actor, producer, writer",Metropolis (1927),200714,8.2
+115,nm0388674,Franz Hofer,7,7,1,0,"actor, director, writer",Metropolis (1927),200714,8.2
+115,nm0915270,William Wauer,7,7,1,0,"actor, director, writer",Metropolis (1927),200714,8.2
+115,nm1104609,Margit B. Kornai,6,6,1,0,actress,Metropolis (1927),200714,8.2
+115,nm1784615,Oskar Linke,6,6,1,0,actor,Metropolis (1927),200714,8.2
+115,nm0901990,Sacy von Blondel,6,6,1,0,actress,Metropolis (1927),200714,8.2
+115,nm0944268,Robert Wüllner,5,5,1,8,"actor, producer",Metropolis (1927),200714,8.2
+115,nm0000485,Fritz Lang,5,5,1,2,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm0485161,Heinz Landsmann,5,5,1,1,"actor, producer",Metropolis (1927),200714,8.2
+115,nm0000697,Billy Wilder,5,5,1,0,"actor, director, writer",Metropolis (1927),200714,8.2
+115,nm1779088,Eduard van Meghen,5,5,1,0,actor,Metropolis (1927),200714,8.2
+115,nm0266691,Arnold Fanck,4,4,1,4,"actor, director, producer, writer",Metropolis (1927),200714,8.2
+115,nm2007838,Oszkar Mogan,4,4,1,2,"actor, producer, writer",Metropolis (1927),200714,8.2
+115,nm1355020,Reinhold Flügel,4,4,1,0,actor,Metropolis (1927),200714,8.2
+115,nm0533048,Max Mack,3,3,1,0,"actor, director, writer",Metropolis (1927),200714,8.2
+115,nm0907078,Harry Walden,2,2,1,0,actor,Metropolis (1927),200714,8.2
+118,nm0455938,Teinosuke Kinugasa,1,1,1,1,"actor, director, producer, writer",Spark (1922),0,0.0
+124,nm0508483,Minwei Li,9,9,1,1,"actor, director, producer",Xi xiang ji (1927),186,6.1
+126,nm0954087,Ferdinand Zecca,2,2,5,0,"actor, director, writer",History of a Crime (1901),876,6.2
+130,nm0640901,Fred O'Donovan,5,5,1,0,actor,"Ireland, a Nation (1914)",64,3.8
+131,nm0387591,Hayford Hobbs,236,174,30,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0911914,Warwick Ward,222,203,27,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0124236,Anthony Bushell,217,197,25,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0541766,Miles Mander,215,194,27,2,"actor, director, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0052217,Monty Banks,213,188,25,3,"actor, director, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0001931,Binnie Barnes,213,184,25,0,actress,The 39 Steps (1935),65989,7.6
+131,nm0637040,Ivor Novello,172,153,21,2,"actor, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0447597,Henry Kendall,165,144,20,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0050151,Betty Balfour,143,132,17,0,actress,The 39 Steps (1935),65989,7.6
+131,nm0313449,Lupino Lane,135,109,24,4,"actor, director, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0118014,Jack Buchanan,129,117,17,0,"actor, director, writer",The 39 Steps (1935),65989,7.6
+131,nm0404484,Harold Huth,123,111,15,0,"actor, writer",The 39 Steps (1935),65989,7.6
+131,nm0104197,A.V. Bramble,116,54,25,0,"actor, director",The 39 Steps (1935),65989,7.6
+131,nm0590055,John Mills,114,103,13,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0390979,Anthony Holles,109,101,13,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0362567,Cedric Hardwicke,107,97,13,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0672909,Esme Percy,103,91,12,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0643353,Merle Oberon,103,98,12,0,actress,The 39 Steps (1935),65989,7.6
+131,nm0339504,Clare Greet,97,90,12,0,actress,The 39 Steps (1935),65989,7.6
+131,nm0909398,Tom Walls,96,55,12,1,"actor, director, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0408172,A.B. Imeson,87,80,10,1,"actor, producer",The 39 Steps (1935),65989,7.6
+131,nm0250038,Henry Edwards,86,74,12,5,"actor, director, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0371775,Louis Hayward,86,85,10,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0410216,Robin Irvine,85,79,11,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0623554,Anna Neagle,79,64,10,0,actress,The 39 Steps (1935),65989,7.6
+131,nm0280242,Geraldine Fitzgerald,79,69,9,0,actress,The 39 Steps (1935),65989,7.6
+131,nm0245579,Franklin Dyall,77,73,9,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0000059,Laurence Olivier,74,72,9,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0210116,Derrick De Marney,67,65,8,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0001224,Errol Flynn,64,58,8,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0560791,Joan Maude,62,59,7,0,actress,The 39 Steps (1935),65989,7.6
+131,nm0526950,Stanley Lupino,61,54,7,2,"actor, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0401323,Jack Hulbert,61,55,7,0,"actor, director, writer",The 39 Steps (1935),65989,7.6
+131,nm0855150,Walter Tennyson,59,58,7,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0378225,Leslie Henson,57,56,7,1,"actor, producer",The 39 Steps (1935),65989,7.6
+131,nm0572220,Ivor McLaren,57,51,7,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0263052,Maurice Evans,57,56,7,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0276247,Gracie Fields,54,47,6,0,actress,The 39 Steps (1935),65989,7.6
+131,nm0083433,Richard Bird,54,52,6,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0097848,Wallace Bosco,53,52,7,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0513325,Leon M. Lion,49,47,6,1,"actor, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0370144,Jack Hawkins,45,44,5,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0002504,Herbert Beerbohm Tree,44,41,5,1,"actor, director, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0000861,Freddie Bartholomew,44,43,5,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0724732,Ralph Richardson,44,43,5,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0557339,Raymond Massey,43,43,5,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0928295,Henry Wilcoxon,42,39,5,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0731182,J.H. Roberts,42,41,5,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0223160,George Dewhurst,41,37,6,2,"actor, director, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0666835,Fred Paul,37,33,6,2,"actor, director, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0851188,Reginald Tate,34,34,4,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0891061,Kathleen Vaughan,32,32,4,0,actress,The 39 Steps (1935),65989,7.6
+131,nm0278084,Arthur Finn,27,27,3,1,"actor, producer",The 39 Steps (1935),65989,7.6
+131,nm0161363,Esme Church,27,27,3,0,actress,The 39 Steps (1935),65989,7.6
+131,nm0457333,Esther Kiss,27,27,3,0,actress,The 39 Steps (1935),65989,7.6
+131,nm0056556,Patrick Barr,27,27,3,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0734516,Alfred Rode,26,24,3,1,"actor, producer",The 39 Steps (1935),65989,7.6
+131,nm0256158,Nell Emerald,26,24,3,0,"actress, writer",The 39 Steps (1935),65989,7.6
+131,nm0500171,Austin Leigh,25,25,4,1,"actor, producer",The 39 Steps (1935),65989,7.6
+131,nm0129065,Dallas Cairns,24,23,3,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0360389,Nicholas Hannen,24,24,3,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0001322,Rex Harrison,24,24,3,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0605034,Sidney Morgan,18,18,2,4,"actor, director, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0685823,Archie Pitt,18,18,2,0,"actor, writer",The 39 Steps (1935),65989,7.6
+131,nm0262647,Clifford Evans,18,18,2,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0519159,Reginald Long,18,14,2,0,"actor, writer",The 39 Steps (1935),65989,7.6
+131,nm0809678,Reginald Smith,18,18,2,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0040644,Robert Atkins,18,18,2,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0001888,Robert Douglas,18,18,2,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0866029,Stan Tolhurst,18,18,2,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0355161,Tony Halfpenny,18,18,2,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0713283,Jack Raymond,17,17,2,2,"actor, director, producer",The 39 Steps (1935),65989,7.6
+131,nm0816166,Harry Southwell,17,17,2,1,"actor, director, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0112641,Albert Brouett,17,17,2,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0715346,Carol Reed,17,17,2,0,"actor, director",The 39 Steps (1935),65989,7.6
+131,nm0572138,Kenneth McLaglen,17,17,2,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0337916,Hughie Green,16,16,2,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0000051,James Mason,16,15,2,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0319031,Roland Gillett,16,16,2,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0003836,Michael Powell,15,15,2,1,"actor, director, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0107960,Leonard Brett,15,15,2,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0378408,Cecil M. Hepworth,13,9,3,89,"actor, director, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0002061,Maurice Elvey,10,7,2,15,"actor, director, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0872868,Laurence Trimble,10,10,2,2,"actor, director, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0940499,Arthur B. Woods,9,9,1,1,"actor, director, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0018440,George Alexander,9,9,1,1,"actor, producer",The 39 Steps (1935),65989,7.6
+131,nm0360228,Pat Hanna,9,9,1,1,"actor, director, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0426601,Denis Johnston,9,9,1,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0232097,Eric Donaldson,9,9,1,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0161213,Fat Chung,9,9,1,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0672590,Harry S. Pepper,9,9,1,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0249207,Hindle Edgar,9,9,1,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0111703,Hugh Brooke,9,9,1,0,"actor, writer",The 39 Steps (1935),65989,7.6
+131,nm0118646,Kenneth Milne-Buckley,9,9,1,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0446052,Pamela Mason,9,9,1,0,actress,The 39 Steps (1935),65989,7.6
+131,nm0188493,Peter Croft,9,9,1,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0372539,Richard Hearne,9,9,1,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0724334,Shelah Richards,9,9,1,0,actress,The 39 Steps (1935),65989,7.6
+131,nm0805532,Tod Slaughter,9,9,1,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0317350,Val Gielgud,9,9,1,0,"actor, writer",The 39 Steps (1935),65989,7.6
+131,nm0323700,Edward Godal,8,8,1,6,"actor, director, producer",The 39 Steps (1935),65989,7.6
+131,nm0332539,Edmund Goulding,8,8,1,3,"actor, director, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0923143,M.A. Wetherell,8,8,1,1,"actor, director, producer",The 39 Steps (1935),65989,7.6
+131,nm0504381,Colin Lesslie,8,8,1,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0328916,Geoffrey Goodheart,8,8,1,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0687892,Graham Pockett,8,8,1,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0319146,Leslie Gilliat,8,8,1,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0319148,Sidney Gilliat,8,8,1,0,"actor, writer",The 39 Steps (1935),65989,7.6
+131,nm1035076,Mark Barker,7,7,1,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0421001,Warren Jenkins,7,7,1,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0454028,Anthony Kimmins,6,6,1,0,"actor, director, writer",The 39 Steps (1935),65989,7.6
+131,nm0911436,Cecil Ward,6,6,1,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0269488,Eric Fawcett,6,6,1,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0943964,George Wynn,6,6,1,0,"actor, director",The 39 Steps (1935),65989,7.6
+131,nm0531756,Ian MacDonald,6,6,1,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0926498,Norman Whitten,6,6,1,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0492444,Peter Lawford,6,6,1,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0922928,Charles Weston,5,5,2,1,"actor, director, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0508101,George Leyton,5,5,1,0,"actor, writer",The 39 Steps (1935),65989,7.6
+131,nm0183586,John Counsell,5,5,1,0,actor,The 39 Steps (1935),65989,7.6
+131,nm0139765,June Carr,5,5,1,0,actress,The 39 Steps (1935),65989,7.6
+131,nm0565560,Winsor McCay,4,4,1,6,"actor, director, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0761770,Challis Sanderson,4,4,1,1,"actor, director, producer, writer",The 39 Steps (1935),65989,7.6
+131,nm0002190,Anthony Asquith,4,4,1,0,"actor, director, writer",The 39 Steps (1935),65989,7.6
+135,nm0585931,Adelqui Migliar,167,110,21,1,"actor, director, producer, writer",The Blue Angel (1930),17586,7.6
+135,nm0212098,Willem van der Veer,108,79,13,0,actor,The Blue Angel (1930),17586,7.6
+135,nm0072191,Alex Benno,59,40,7,1,"actor, director, producer, writer",The Blue Angel (1930),17586,7.6
+135,nm0294276,Theo Frenkel,43,33,18,5,"actor, director, producer, writer",The Blue Angel (1930),17586,7.6
+135,nm0887223,Jacques van Hoven,9,9,1,1,"actor, producer, writer",The Blue Angel (1930),17586,7.6
+135,nm0318397,Johan Gildemeijer,9,9,1,1,"actor, director, producer, writer",The Blue Angel (1930),17586,7.6
+137,nm0145527,Eduardo de Castro,4,4,1,0,actor,Brides of Sulu (1934),16,5.0
+145,nm0209740,Rina De Liguoro,71,69,9,0,actress,Cabiria (1914),4329,7.1
+145,nm0518352,Carlo Lombardi,70,57,8,0,actor,Cabiria (1914),4329,7.1
+145,nm0080697,Ferruccio Biancini,26,25,3,5,"actor, director, producer, writer",Cabiria (1914),4329,7.1
+145,nm0094801,Mario Bonnard,25,21,4,1,"actor, director, producer, writer",Cabiria (1914),4329,7.1
+145,nm0209738,Giuseppe de Liguoro,9,9,2,1,"actor, director, producer",Cabiria (1914),4329,7.1
+145,nm0609570,Luigi Mottura,9,9,1,0,actor,Cabiria (1914),4329,7.1
+145,nm0558127,Raffaello Matarazzo,9,9,1,0,"actor, director, writer",Cabiria (1914),4329,7.1
+145,nm0024847,Sergio Amidei,9,9,1,0,actor,Cabiria (1914),4329,7.1
+146,nm0700209,Narciso Puignau,3,3,2,2,"actor, producer",Aventuras de un estudiante (1922),0,0.0
+148,nm0670643,Mario Peixoto,7,7,1,1,"actor, director, producer, writer",Limit (1931),3253,7.0
+148,nm0764009,Carmen Santos,7,7,1,0,actress,Limit (1931),3253,7.0
+150,nm0710151,Devika Rani,18,16,3,3,"actress, producer",Achhut Kanya (1936),192,6.5
+150,nm0695263,Kamta Prasad,18,16,2,0,actor,Achhut Kanya (1936),192,6.5
+150,nm0006369,Ashok Kumar,9,9,1,0,actor,Achhut Kanya (1936),192,6.5
+150,nm0222140,Bhaskar Dev,9,9,1,0,actor,Achhut Kanya (1936),192,6.5
+151,nm0001908,Gilbert M. 'Broncho Billy' Anderson,874,121,195,228,"actor, director, producer, writer",The Great Train Robbery (1903),22737,7.2
+151,nm0887714,Ernest Van Pelt,85,39,12,0,"actor, director",The Great Train Robbery (1903),22737,7.2
+151,nm0924920,James H. White,4,4,2,2,"actor, director, producer",The Great Train Robbery (1903),22737,7.2
+151,nm0692105,Edwin S. Porter,3,3,1,11,"actor, director, producer, writer",The Great Train Robbery (1903),22737,7.2
+151,nm0309539,Betty Gates,3,3,1,0,actress,The Great Train Robbery (1903),22737,7.2
+154,nm0300064,Jean Gabin,119,106,15,0,actor,The Passion of Joan of Arc (1928),67988,8.1
+154,nm0622772,René Navarre,88,63,13,0,actor,The Passion of Joan of Arc (1928),67988,8.1
+154,nm0272794,Fernandel,79,69,11,0,actor,The Passion of Joan of Arc (1928),67988,8.1
+154,nm0511729,Max Linder,71,56,19,1,"actor, director, producer, writer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0078116,Francesca Bertini,68,65,12,0,"actress, director, writer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0605851,Gaby Morlay,59,58,8,0,actress,The Passion of Joan of Arc (1928),67988,8.1
+154,nm0241348,Charles Dullin,53,50,6,1,"actor, producer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0304098,Abel Gance,39,36,6,5,"actor, director, producer, writer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0756679,Renée Saint-Cyr,36,36,4,0,actress,The Passion of Joan of Arc (1928),67988,8.1
+154,nm0674600,Léonce Perret,33,24,5,6,"actor, director, producer, writer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0615736,Musidora,31,29,4,3,"actress, director, producer, writer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0504562,Pierre Lestringuez,31,26,4,0,"actor, writer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0163229,René Clair,31,24,4,0,"actor, director, writer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0202555,André Daven,27,26,3,1,"actor, producer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0304848,Henri Garat,27,26,3,0,actor,The Passion of Joan of Arc (1928),67988,8.1
+154,nm0214937,Jean Dehelly,27,25,3,0,actor,The Passion of Joan of Arc (1928),67988,8.1
+154,nm0738780,Viviane Romance,27,24,3,0,actress,The Passion of Joan of Arc (1928),67988,8.1
+154,nm0719756,Jean Renoir,18,16,3,3,"actor, director, producer, writer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0546621,Gilles Margaritis,18,18,2,0,actor,The Passion of Joan of Arc (1928),67988,8.1
+154,nm0307377,André Gargour,16,14,2,2,"actor, producer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0697512,Suzy Prim,16,16,3,0,actress,The Passion of Joan of Arc (1928),67988,8.1
+154,nm0431641,Odette Joyeux,15,14,2,0,actress,The Passion of Joan of Arc (1928),67988,8.1
+154,nm0525414,Luitz-Morat,14,14,2,1,"actor, director, producer, writer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0076368,Raymond Bernard,14,14,2,1,"actor, director, producer, writer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0176120,Nino Constantini,13,12,2,0,actor,The Passion of Joan of Arc (1928),67988,8.1
+154,nm0000320,Luis Buñuel,9,9,1,2,"actor, director, producer, writer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0590668,Georges Milton,9,9,1,1,"actor, producer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0275494,Jacques Feyder,9,9,1,1,"actor, director, producer, writer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0712915,Man Ray,9,9,1,1,"actor, director, producer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0922170,Julian West,9,9,1,0,actor,The Passion of Joan of Arc (1928),67988,8.1
+154,nm0040094,Junie Astor,9,9,1,0,actress,The Passion of Joan of Arc (1928),67988,8.1
+154,nm0854808,Paul Temps,9,9,1,0,actor,The Passion of Joan of Arc (1928),67988,8.1
+154,nm0077347,Simone Berriau,9,9,1,0,actress,The Passion of Joan of Arc (1928),67988,8.1
+154,nm0688543,Léon Poirier,8,8,1,0,"actor, director, writer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0501453,Camille Lemoine,7,7,1,1,"actress, producer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0657534,Gina Palerme,7,7,2,0,actress,The Passion of Joan of Arc (1928),67988,8.1
+154,nm0105886,Pierre Braunberger,5,5,1,11,"actor, producer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0730647,Jacques Robert,5,5,1,2,"actor, director, producer, writer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0911536,Francis Ward,4,4,1,0,actor,The Passion of Joan of Arc (1928),67988,8.1
+154,nm0097918,Romeo Bosetti,3,3,1,3,"actor, producer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0245213,Julien Duvivier,3,3,1,2,"actor, director, producer, writer",The Passion of Joan of Arc (1928),67988,8.1
+154,nm0029253,Henri Andréani,2,2,1,1,"actor, director, producer, writer",The Passion of Joan of Arc (1928),67988,8.1
+159,nm0304493,Wilf Gannon,1,1,1,1,"actor, director, producer, writer",Auntie's Antics (1929),0,0.0
+162,nm0144879,Maria Emília Castelo Branco,47,41,6,1,"actress, producer",A Song of Lisbon (1933),1626,7.7
+162,nm0554098,Oliveira Martins,27,27,3,0,actor,A Song of Lisbon (1933),1626,7.7
+162,nm0627348,Alberto de Castro Neves,21,20,4,1,"actor, producer",A Song of Lisbon (1933),1626,7.7
+162,nm0327415,Adhemar Gonzaga,14,14,2,5,"actor, director, producer, writer",A Song of Lisbon (1933),1626,7.7
+162,nm0210701,Manoel de Oliveira,9,9,1,1,"actor, director, producer",A Song of Lisbon (1933),1626,7.7
+162,nm0702904,Adolfo Quaresma,9,9,1,0,"actor, director",A Song of Lisbon (1933),1626,7.7
+162,nm0495046,Antônio Leal,9,9,1,0,actor,A Song of Lisbon (1933),1626,7.7
+162,nm0023463,Henrique Alves,9,9,1,0,actor,A Song of Lisbon (1933),1626,7.7
+162,nm0651798,Oscarito,9,9,1,0,actor,A Song of Lisbon (1933),1626,7.7
+162,nm0170137,Amélia Rey Colaço,7,7,1,0,actress,A Song of Lisbon (1933),1626,7.7
+162,nm0328615,Romão Gonçalves,6,6,3,1,"actor, producer",A Song of Lisbon (1933),1626,7.7
+162,nm0033452,Carlos de Arbués,6,6,1,1,"actor, director, producer",A Song of Lisbon (1933),1626,7.7
+162,nm0057767,Luiz de Barros,5,5,1,1,"actor, director, producer, writer",A Song of Lisbon (1933),1626,7.7
+162,nm0182036,Artur Costa de Macedo,1,1,1,8,"actor, director, producer, writer",A Song of Lisbon (1933),1626,7.7
+163,nm0695264,L.V. Prasad,8,8,1,0,actor,The Light of the World (1931),155,6.6
+176,nm0639280,Ricardo Núñez,110,92,15,0,actor,Drácula (1931),5616,7.0
+176,nm0130482,Guillermo Calles,71,59,10,1,"actor, director, producer, writer",Drácula (1931),5616,7.0
+176,nm0488591,Pedro Larrañaga,63,55,8,1,"actor, producer",Drácula (1931),5616,7.0
+176,nm0176472,Miguel Contreras Torres,62,56,9,4,"actor, director, producer, writer",Drácula (1931),5616,7.0
+176,nm0655893,Vincent Padula,62,53,8,0,actor,Drácula (1931),5616,7.0
+176,nm0124387,Joaquín Busquets,62,51,7,0,actor,Drácula (1931),5616,7.0
+176,nm0721074,Florián Rey,58,45,7,1,"actor, director, producer, writer",Drácula (1931),5616,7.0
+176,nm0220230,Mimí Derba,48,38,6,5,"actress, director, producer, writer",Drácula (1931),5616,7.0
+176,nm0673023,Ramón Pereda,45,43,5,0,actor,Drácula (1931),5616,7.0
+176,nm0038102,Manuel Arvide,36,26,4,0,actor,Drácula (1931),5616,7.0
+176,nm0674398,Benito Perojo,33,14,8,1,"actor, director, producer, writer",Drácula (1931),5616,7.0
+176,nm0118272,José Buchs,23,18,3,1,"actor, director, producer, writer",Drácula (1931),5616,7.0
+176,nm0305569,Arturo García Buhr,18,18,2,0,actor,Drácula (1931),5616,7.0
+176,nm0317759,Federico Gil,18,16,2,0,actor,Drácula (1931),5616,7.0
+176,nm0035408,Ramón Armengod,18,18,2,0,actor,Drácula (1931),5616,7.0
+176,nm0025874,Raúl de Anda,18,18,2,0,actor,Drácula (1931),5616,7.0
+176,nm0762271,Luis Sandrini,17,17,3,0,actor,Drácula (1931),5616,7.0
+176,nm0600214,Felipe Montoya,15,15,2,0,actor,Drácula (1931),5616,7.0
+176,nm0244502,Enrique Durán,11,9,3,1,"actor, producer",Drácula (1931),5616,7.0
+176,nm0844790,Luis Sánchez Tello,9,9,1,1,"actor, producer",Drácula (1931),5616,7.0
+176,nm0957783,Ángel Zomeño,9,9,1,1,"actor, producer",Drácula (1931),5616,7.0
+176,nm0209802,Luis de Llano,9,7,2,0,actor,Drácula (1931),5616,7.0
+176,nm0844788,Alfonso Sánchez Tello,9,9,1,0,actor,Drácula (1931),5616,7.0
+176,nm0005708,Alfredo Fraile,9,9,1,0,actor,Drácula (1931),5616,7.0
+176,nm0153261,Charlo,9,9,1,0,actor,Drácula (1931),5616,7.0
+176,nm0334607,Fernando Granada,9,9,1,0,actor,Drácula (1931),5616,7.0
+176,nm0525793,Folco Lulli,9,9,1,0,actor,Drácula (1931),5616,7.0
+176,nm0140459,Hugo del Carril,9,9,1,0,"actor, director, writer",Drácula (1931),5616,7.0
+176,nm0904962,Jorge Vélez,9,9,1,0,actor,Drácula (1931),5616,7.0
+176,nm0179518,José María Cordero,9,9,1,0,actor,Drácula (1931),5616,7.0
+176,nm0393042,Juan de Homs,9,9,1,0,"actor, director",Drácula (1931),5616,7.0
+176,nm0018602,Margarita Alexandre,9,9,1,0,actress,Drácula (1931),5616,7.0
+176,nm0636969,Medea de Novara,9,9,1,0,actress,Drácula (1931),5616,7.0
+176,nm0953236,Pablo Zapico,9,9,1,0,actor,Drácula (1931),5616,7.0
+176,nm0000784,Pedro Armendáriz,9,9,1,0,actor,Drácula (1931),5616,7.0
+176,nm0130759,Antonio Calvache,8,8,1,1,"actor, director, producer, writer",Drácula (1931),5616,7.0
+176,nm0708673,José Manuel Ramos,8,8,1,1,"actor, director, producer, writer",Drácula (1931),5616,7.0
+176,nm0033120,Luis Araquistáin,8,8,1,0,actor,Drácula (1931),5616,7.0
+176,nm0273203,Eusebio Fernández Ardavín,7,7,1,3,"actor, director, producer, writer",Drácula (1931),5616,7.0
+176,nm0693492,Armando Pou,7,7,1,2,"actor, director, producer, writer",Drácula (1931),5616,7.0
+176,nm0529924,Rafael López Rienda,7,7,1,1,"actor, director, producer, writer",Drácula (1931),5616,7.0
+176,nm0317872,Telesforo Gil,7,7,1,1,"actor, director, producer, writer",Drácula (1931),5616,7.0
+176,nm0430255,Elena Jordi,7,7,1,0,actress,Drácula (1931),5616,7.0
+176,nm0127816,Francisco Cabrera,7,7,1,0,actor,Drácula (1931),5616,7.0
+176,nm0487462,Fidel Lapetra,4,2,2,1,"actor, producer",Drácula (1931),5616,7.0
+176,nm0274532,Antonio Ferrer,4,4,1,0,actor,Drácula (1931),5616,7.0
+176,nm0797301,Santiago Sierra,4,4,1,0,"actor, director, writer",Drácula (1931),5616,7.0
+176,nm0133593,Francisco Canaro,3,3,1,0,actor,Drácula (1931),5616,7.0
+176,nm0328069,Aureliano González,2,2,1,3,"actor, director, producer",Drácula (1931),5616,7.0
+182,nm0949397,Christopher Young,1,1,1,1,"actor, director, producer, writer",Schlitz on Mount Washington (1935),23,8.4
+183,nm0002615,Siegmund Lubin,1,1,1,100,"actor, director, producer",Uncle Tom's Cabin (1903),32,5.0
+189,nm0617588,Georges Méliès,35,24,36,25,"actor, director, producer, writer",A Trip to the Moon (1902),60676,8.1
+190,nm0390776,Maury Holland,9,9,2,0,actor,So This Is Marriage (1929),17,5.1
+192,nm0650650,Ramón Orrico Vidal,6,6,2,1,"actor, director, producer",El monje de Portacoeli (1923),0,0.0
+200,nm14112091,Dwarkadas Narendas Sampat,6,6,1,0,actor,Bhakta Vidur (1922),7,5.6
+200,nm0665381,Maneklal Patel,6,6,1,0,actor,Bhakta Vidur (1922),7,5.6
+213,nm0170008,Arnaldo Coimbra,11,10,2,0,actor,O Fauno das Montanhas (1926),32,7.0

@@ -1,0 +1,9 @@
+﻿community_id,actor_count,edge_count,internal_weight,density,title_count,dominant_genres,central_actor,central_actor_weighted_degree,bridge_actor,bridge_external_weight,external_weight_total,importance_score
+1,1738,32104,35934,0.02126863174938206,1359,"Drama, Romance, Comedy",Guy Kibbee,387,Lionel Barrymore,138,13758,17351.326863174938
+2,1089,8199,9323,0.013839936801166748,771,"Drama, Romance, Comedy",Henry B. Walthall,324,Henry B. Walthall,164,9974,7041.883993680117
+3,990,6365,6664,0.013001603497053446,199,"Drama, Romance, Comedy",Conrad Veidt,108,Louise Brooks,56,694,5930.600160349705
+4,436,3101,4352,0.03270062216598123,492,"Comedy, Short, Drama",Oliver Hardy,585,Edgar Kennedy,158,5174,2927.770062216598
+7,380,3031,5192,0.042091376197750316,318,"Comedy, Short, Romance",Charles Chaplin,468,Buster Keaton,134,2603,2865.709137619775
+5,398,2197,2230,0.027809070541625,98,"Drama, Crime, Mystery",Ian Hunter,99,Peter Gawthorne,33,922,2260.4809070541623
+6,380,1892,2140,0.02627412859325094,261,"Drama, Western, Romance",John Wayne,333,Noah Beery,163,3154,2139.827412859325
+8,218,1241,1270,0.05246691751574853,29,"Drama, Comedy, History",Aleksandr Chistyakov,54,Polycarpe Pavloff,3,34,1255.3466917515748
