@@ -2,6 +2,13 @@
 
 Projet d'analyse de graphes construit a partir des donnees **IMDb Open Data**.
 
+## Presentation
+
+- PDF : [presentation/presentation_finale_imdb_optimisee.pdf](presentation/presentation_finale_imdb_optimisee.pdf)
+- PowerPoint : [presentation/presentation_finale_imdb_optimisee.pptx](presentation/presentation_finale_imdb_optimisee.pptx)
+
+Le PDF s'ouvre directement dans GitHub. Le fichier PowerPoint reste telechargeable et conserve les videos de demonstration integrees.
+
 L'application principale est une interface **Streamlit** qui transforme les collaborations entre acteurs en reseau interactif afin d'explorer :
 
 - les liens entre acteurs
