@@ -171,8 +171,9 @@
 {\Huge\bfseries\color{maincolor} Analyse de graphes IMDb}\\[0.35cm]
 {\Large\color{textgray} Communautés, genres et acteurs les plus connectés}\\[0.65cm]
 \rule{0.88\textwidth}{0.8pt}\\[1.2cm]
+\vspace{2cm}
+\includegraphics[width=12cm]{Template_Latex_Rapport_Graphes_Et_Open_Data/Capture d'écran 2026-05-31 174307.png}
 \vspace{0.9cm}
-
 \begin{tabular}{>{\bfseries\color{maincolor}}l @{\quad}l}
 Étudiante      & Zaineb Benmahmoud \\[5pt]
 Module         & Graphes et Open Data \\[5pt]
@@ -253,6 +254,7 @@ Pour répondre à cette question, le projet poursuit quatre objectifs :
   \item rendre les résultats lisibles grâce à une application Streamlit interactive.
 \end{enumerate}
 
+\newpage
 \section{Environnement de travail et outils}
 
 \subsection{Pile technologique}
@@ -290,6 +292,21 @@ export\_actor\_producers\_by\_community.py
 \end{tcolorbox}
 
 Sur le plan applicatif, \file{app.py} joue un double rôle. D'une part, il orchestre le traitement des données : lecture du cache, sélection des titres, construction des graphes et préparation des tables de résultats. D'autre part, il pilote toute l'expérience utilisateur : navigation entre les vues, widgets de filtrage, affichage conditionnel des graphes et rendu des tableaux de synthèse. Cette centralisation permet de garder une logique cohérente entre les calculs du backend et ce qui est réellement présenté dans le site.
+\newpage
+\subsection{Organisation du code}
+
+Le projet repose sur une structure de code modulaire. Le fichier principal \file{app.py} centralise l'application Streamlit, la navigation entre les vues, les filtres interactifs et l'affichage des résultats. Les autres fichiers jouent un rôle plus ciblé.
+
+\begin{itemize}[leftmargin=1.4cm, itemsep=3pt]
+  \item \file{data_loader.py} : lecture et préparation initiale des données IMDb ;
+  \item \file{graph_builder.py} : construction des graphes à partir des relations entre personnes et titres ;
+  \item \file{graph_algorithms.py} : calculs de graphe et mesures de structure ;
+  \item \file{analysis.py} : statistiques complémentaires et tableaux d'analyse ;
+  \item \file{visualize.py} : génération de visualisations statiques ;
+  \item scripts \file{export\_*.py} : production d'exports utilisés dans la vue de synthèse.
+\end{itemize}
+
+Cette organisation permet de séparer le chargement des données, la logique de calcul et l'interface utilisateur, tout en gardant une application finale cohérente.
 
 \subsection{Chaîne de traitement}
 
@@ -352,7 +369,7 @@ Communautés détectées & 215 \\
 \end{tabularx}
 \caption{Volumes de données traitées}
 \end{table}
-
+\newpage
 \subsection{Pipeline de préparation}
 
 \begin{enumerate}[leftmargin=1.4cm, itemsep=4pt]
@@ -500,7 +517,7 @@ Deux acteurs ayant travaillé ensemble dans cinq films sont considérés comme p
 Ce choix donne une lecture plus réaliste du réseau qu'un simple comptage du nombre de sauts. En effet, deux chemins contenant le même nombre d'étapes ne traduisent pas forcément la même intensité relationnelle. Un chemin passant par des liens forts représente une chaîne de collaborations plus cohérente qu'un chemin reposant uniquement sur des rencontres ponctuelles. L'utilisation de Dijkstra avec une distance inverse du poids permet donc d'intégrer la force réelle des collaborations dans le calcul.
 
 Dans l'application, ce calcul intervient dès qu'un acteur de départ et un acteur d'arrivée sont sélectionnés. Le résultat affiché ne se limite pas à une distance abstraite : il fournit aussi la liste des acteurs intermédiaires qui servent de transition dans le réseau. Cette fonctionnalité est importante, car elle permet de comprendre comment deux acteurs apparemment éloignés peuvent être reliés par une chaîne de collaborations.
-
+\newpage
 \subsection{Centralité}
 
 Pour identifier les acteurs importants, plusieurs indicateurs sont utilisés :
@@ -559,7 +576,7 @@ Sur le plan fonctionnel, cette vue combine plusieurs éléments utiles dans une 
 \img{map.png}{Vue de la carte géographique}
 
 La carte permet de visualiser la répartition régionale simplifiée des acteurs et des collaborations à partir des régions IMDb.
-
+\newpage
 Cette vue ne remplace pas le graphe principal : elle apporte une lecture complémentaire. Là où le réseau montre les relations entre personnes, la carte aide à replacer une partie de ces relations dans un contexte géographique plus large. Elle sert donc surtout à enrichir l'interprétation visuelle du projet.
 
 \subsection{Vue 3 --- Analyses}
@@ -636,6 +653,7 @@ Cette vue met en relation les communautés, les genres dominants et quelques act
 
 Elle permet de mieux interpréter les communautés après leur détection. En effet, les communautés sont créées par la structure du réseau, mais elles peuvent ensuite être décrites par d'autres variables comme les genres dominants ou les acteurs les plus importants. Cette étape d'interprétation est utile pour donner du sens aux groupes obtenus.
 
+\newpage
 \section{Analyses détaillées}
 
 \subsection{Signification des liens}
@@ -695,6 +713,7 @@ Les résultats dépendent de la qualité de la base IMDb utilisée : information
 
 Il faut donc lire les résultats comme une analyse structurelle cohérente d'un sous-ensemble très riche de données IMDb, et non comme une représentation exhaustive de toute l'histoire du cinéma. Cette nuance est importante pour éviter de surinterpréter certains classements ou certaines dominances de genre.
 
+\newpage
 \section{Limites et difficultés rencontrées}
 
 \subsection{Volume et lisibilité}
@@ -713,7 +732,7 @@ Les fichiers IMDb locaux présentent plusieurs limites :
   \item pas de géolocalisation individuelle précise ;
   \item notes ou votes manquants pour certains titres anciens.
 \end{itemize}
-
+\newpage
 \section{Conclusion}
 
 Ce projet montre comment des données ouvertes fournies sous forme de fichiers TSV peuvent être transformées en un réseau d'analyse riche et exploitable. À partir des données IMDb, le graphe construit met en évidence des collaborations entre acteurs, des communautés structurées, des acteurs centraux et des chemins reliant différentes parties du réseau.
@@ -738,20 +757,61 @@ Plusieurs prolongements sont envisageables :
 \addcontentsline{toc}{section}{Bibliographie}
 
 \begin{thebibliography}{9}
-\bibitem{newman} M.~Newman, \textit{Networks: An Introduction}, Oxford University Press, 2010.
-\bibitem{barabasi} A.-L.~Barabási, \textit{Network Science}, Cambridge University Press, 2016.
-\bibitem{hagberg} A.~Hagberg, P.~Swart, D.~S.~Chult, \textit{Exploring network structure, dynamics, and function using NetworkX}, SciPy 2008.
+
+\bibitem{newman}
+M. Newman,
+\textit{Networks: An Introduction},
+Oxford University Press, 2010.
+
+\bibitem{barabasi}
+A.-L. Barabási,
+\textit{Network Science},
+Cambridge University Press, 2016.
+
+\bibitem{louvain}
+V. D. Blondel, J.-L. Guillaume, R. Lambiotte, E. Lefebvre,
+\textit{Fast unfolding of communities in large networks},
+Journal of Statistical Mechanics: Theory and Experiment, 2008.
+
+\bibitem{dijkstra}
+E. W. Dijkstra,
+\textit{A note on two problems in connexion with graphs},
+Numerische Mathematik, 1959.
+
 \end{thebibliography}
 
 \section*{Webographie}
 \addcontentsline{toc}{section}{Webographie}
 
 \begin{thebibliography}{9}
-\bibitem{imdb} IMDb Non-Commercial Datasets : \url{https://developer.imdb.com/non-commercial-datasets/}
-\bibitem{networkx} NetworkX Documentation : \url{https://networkx.org/}
-\bibitem{streamlit} Streamlit Documentation : \url{https://streamlit.io/}
-\bibitem{folium} Folium : \url{https://python-visualization.github.io/folium/}
-\bibitem{plotly} Plotly Python : \url{https://plotly.com/python/}
+
+\bibitem{imdb}
+IMDb Non-Commercial Datasets :
+\url{https://developer.imdb.com/non-commercial-datasets/}
+
+\bibitem{networkx}
+NetworkX Documentation :
+\url{https://networkx.org/}
+
+\bibitem{streamlit}
+Streamlit Documentation :
+\url{https://streamlit.io/}
+
+\bibitem{folium}
+Folium Documentation :
+\url{https://python-visualization.github.io/folium/}
+
+\bibitem{plotly}
+Plotly Python Documentation :
+\url{https://plotly.com/python/}
+
+\bibitem{github}
+Dépôt GitHub du projet :
+\url{https://github.com/zainebbmn/imdb-graph-analysis}
+
 \end{thebibliography}
+
+\end{document}
+
 
 \end{document}
