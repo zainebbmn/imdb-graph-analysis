@@ -1,0 +1,757 @@
+\documentclass[a4paper,12pt]{article}
+
+% ─── ENCODAGE & LANGUE ───────────────────────────────────────────────────────
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+
+% ─── MISE EN PAGE ────────────────────────────────────────────────────────────
+\usepackage[top=2.5cm,bottom=2.5cm,left=3cm,right=2.5cm]{geometry}
+\usepackage{setspace}
+\usepackage{amsmath}
+\onehalfspacing
+
+% ─── GRAPHIQUES & COULEURS ───────────────────────────────────────────────────
+\usepackage{graphicx}
+\usepackage[dvipsnames,svgnames,x11names]{xcolor}
+\usepackage{float}
+
+% ─── TABLEAUX ────────────────────────────────────────────────────────────────
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{colortbl}
+
+% ─── BOÎTES & ENCADRÉS ───────────────────────────────────────────────────────
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable,listings}
+
+% ─── CODE ────────────────────────────────────────────────────────────────────
+\usepackage{listings}
+\lstset{
+  basicstyle=\small\ttfamily,
+  backgroundcolor=\color{gray!10},
+  frame=single,
+  framerule=0.4pt,
+  rulecolor=\color{gray!50},
+  breaklines=true,
+  keywordstyle=\color{blue!70!black}\bfseries,
+  commentstyle=\color{green!50!black}\itshape,
+  stringstyle=\color{red!60!black},
+  showstringspaces=false,
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  numbersep=8pt,
+}
+
+% ─── LIENS & NAVIGATION ──────────────────────────────────────────────────────
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=NavyBlue,
+  citecolor=NavyBlue,
+  urlcolor=NavyBlue,
+  pdftitle={Rapport -- Analyse de graphes IMDb},
+  pdfauthor={Zaineb Benmahmoud},
+}
+
+% ─── DIVERS ──────────────────────────────────────────────────────────────────
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+
+% ─── COULEURS PROJET ─────────────────────────────────────────────────────────
+\definecolor{maincolor}{HTML}{1F4E79}
+\definecolor{secondary}{HTML}{5B9BD5}
+\definecolor{accentgreen}{HTML}{70AD47}
+\definecolor{accentorange}{HTML}{ED7D31}
+\definecolor{textgray}{HTML}{404040}
+\definecolor{lightbg}{HTML}{F7F9FC}
+\definecolor{softborder}{HTML}{D9E2F3}
+\definecolor{imdbblue}{HTML}{1F4E79}
+\definecolor{imdbslate}{HTML}{404040}
+\definecolor{imdblight}{HTML}{F7F9FC}
+
+% ─── STYLES TCOLORBOX ────────────────────────────────────────────────────────
+\tcbset{
+  statbox/.style={
+    enhanced, colback=lightbg, colframe=maincolor,
+    boxrule=1pt, arc=4pt,
+    fonttitle=\bfseries\small, coltitle=imdbblue,
+    left=6pt, right=6pt, top=4pt, bottom=4pt
+  },
+  infobox/.style={
+    enhanced, colback=lightbg, colframe=maincolor,
+    boxrule=0.8pt, arc=3pt, left=8pt, right=8pt, top=6pt, bottom=6pt,
+    breakable
+  },
+  warnbox/.style={
+    enhanced, colback=orange!6, colframe=accentorange,
+    boxrule=0.8pt, arc=3pt, left=8pt, right=8pt, top=6pt, bottom=6pt,
+    breakable
+  },
+  greenbox/.style={
+    enhanced, colback=green!6, colframe=accentgreen,
+    boxrule=0.8pt, arc=3pt, left=8pt, right=8pt, top=6pt, bottom=6pt,
+    breakable
+  },
+  codebox/.style={
+    enhanced, colback=gray!8, colframe=gray!40,
+    boxrule=0.6pt, arc=3pt, left=6pt, right=6pt, top=4pt, bottom=4pt,
+    fontupper=\small\ttfamily, breakable
+  },
+}
+
+% ─── EN-TÊTES & PIEDS DE PAGE ────────────────────────────────────────────────
+\pagestyle{fancy}
+\setlength{\headheight}{14pt}
+\fancyhf{}
+\fancyhead[L]{\small\color{imdbslate}\textsc{Analyse de graphes IMDb}}
+\fancyhead[R]{\small\color{imdbslate}Projet Graphes \& Open Data}
+\fancyfoot[C]{\small\color{imdbslate}--- \thepage\ ---}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% ─── TITRES DE SECTIONS ──────────────────────────────────────────────────────
+\titleformat{\section}
+  {\Large\bfseries\color{imdbblue}}
+  {\thesection.}{0.8em}{}[\titlerule]
+\titleformat{\subsection}
+  {\large\bfseries\color{imdbslate}}
+  {\thesubsection.}{0.6em}{}
+
+% ─── LÉGENDES ────────────────────────────────────────────────────────────────
+\captionsetup{
+  font=small,
+  labelfont={bf,color=imdbblue},
+  textfont={it,color=imdbslate},
+  margin=0.5cm,
+}
+
+\graphicspath{{./}}
+
+\newcommand{\file}[1]{\texttt{\color{imdbblue}#1}}
+\newcommand{\code}[1]{\texttt{\small\color{imdbslate}#1}}
+
+\newcommand{\img}[2]{%
+  \begin{figure}[H]
+  \centering
+  \IfFileExists{#1}{%
+    \includegraphics[width=\linewidth]{#1}%
+  }{%
+    \fbox{\parbox{0.9\linewidth}{\centering\vspace{1.5cm}%
+      \textcolor{gray}{\textit{[Image : #1]}}\\[0.3cm]%
+      \textcolor{gray!60}{\small Placez le fichier \texttt{#1} dans le même dossier que ce .tex}%
+      \vspace{1.5cm}}}%
+  }%
+  \caption{#2}
+  \end{figure}%
+}
+
+\begin{document}
+
+\begin{titlepage}
+\pagecolor{white}
+\color{black}
+\centering
+
+\vspace*{0.8cm}
+
+\IfFileExists{nanterrelogo.png}{%
+  \includegraphics[width=0.22\textwidth]{nanterrelogo.png}\\[0.9cm]
+}{}
+
+{\Large\bfseries Graphes et Open Data}\\[0.25cm]
+{\large Année universitaire 2025--2026}\\[1.1cm]
+
+\rule{0.88\textwidth}{0.8pt}\\[0.65cm]
+{\Huge\bfseries\color{maincolor} Analyse de graphes IMDb}\\[0.35cm]
+{\Large\color{textgray} Communautés, genres et acteurs les plus connectés}\\[0.65cm]
+\rule{0.88\textwidth}{0.8pt}\\[1.2cm]
+\vspace{0.9cm}
+
+\begin{tabular}{>{\bfseries\color{maincolor}}l @{\quad}l}
+Étudiante      & Zaineb Benmahmoud \\[5pt]
+Module         & Graphes et Open Data \\[5pt]
+Sujet          & Analyse de collaborations cinématographiques par graphes \\[5pt]
+Outils         & Python · NetworkX · Streamlit · Pandas · Folium · Plotly \\[5pt]
+\end{tabular}
+
+\vspace{0.8cm}
+
+\begin{tcolorbox}[
+  enhanced,
+  colback=lightbg,
+  colframe=softborder,
+  boxrule=0.8pt,
+  arc=3pt,
+  width=0.86\textwidth,
+  left=10pt,right=10pt,top=8pt,bottom=8pt
+]
+\centering\small
+\textbf{Dépôt GitHub du projet :}\\
+\url{https://github.com/zainebbmn/imdb-graph-analysis}
+\end{tcolorbox}
+
+\vfill
+
+{\small\color{textgray}
+Source des données : IMDb Non-Commercial Datasets\\
+\url{https://developer.imdb.com/non-commercial-datasets/}
+}
+
+\end{titlepage}
+\nopagecolor
+\color{black}
+
+\newpage
+\section*{Résumé}
+\addcontentsline{toc}{section}{Résumé}
+
+Ce rapport présente un projet d'analyse de graphes appliqué aux données ouvertes IMDb. L'objectif est de transformer des fichiers tabulaires volumineux en un réseau de collaborations entre acteurs, afin d'étudier les relations, les communautés et les distances dans l'univers cinématographique. Le graphe principal est non orienté et pondéré : chaque sommet représente un acteur ou une actrice, chaque arête représente au moins un titre joué en commun, et le poids indique le nombre de collaborations partagées.
+
+À partir d'un échantillon de 300\,000 lignes de données IMDb, le projet construit un réseau comprenant environ 31\,030 acteurs source, 30\,926 acteurs reliés, 563\,847 liens acteur-acteur et 215 communautés détectées. L'analyse repose principalement sur la détection de communautés par modularité, l'étude des genres dominants, l'identification des acteurs centraux et le calcul de plus courts chemins entre acteurs ou entre communautés.
+
+Le travail aboutit également à une application web interactive développée avec Streamlit. Cette application permet d'explorer le graphe, de rechercher des acteurs ou des titres, d'afficher des communautés et de visualiser plusieurs graphes secondaires.
+
+\vspace{0.4cm}
+\noindent\textbf{Mots-clés :} graphes, IMDb, acteurs, communautés, modularité, Louvain, Dijkstra, NetworkX, Streamlit, open data.
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Introduction}
+
+Ce projet s'inscrit dans le cadre du module \textit{Graphes et Open Data}. Il porte sur l'exploitation des données ouvertes d'IMDb afin d'étudier les collaborations entre acteurs à l'aide de la théorie des graphes. L'idée générale est de transformer des fichiers tabulaires volumineux en un réseau relationnel, puis d'analyser ce réseau pour comprendre comment les acteurs sont reliés, quels groupes se forment naturellement et quels chemins permettent de passer d'un acteur ou d'une communauté à une autre.
+
+\begin{tcolorbox}[infobox]
+\textbf{Idée principale du projet}\\
+Un acteur est représenté par un sommet. Deux acteurs sont reliés par une arête lorsqu'ils ont joué dans au moins un même titre. Le poids de cette arête correspond au nombre de titres partagés : plus le poids est élevé, plus la collaboration est forte.
+\end{tcolorbox}
+
+\section{Problématique et objectifs}
+
+La problématique centrale du projet est la suivante :
+
+\begin{center}
+\begin{tcolorbox}[greenbox, width=0.9\textwidth]
+\centering\bfseries
+Comment un graphe d'acteurs permet-il de révéler les communautés, les collaborations fortes et les distances dans un réseau cinématographique ?
+\end{tcolorbox}
+\end{center}
+
+Pour répondre à cette question, le projet poursuit quatre objectifs :
+
+\begin{enumerate}[leftmargin=1.4cm, itemsep=4pt]
+  \item construire un graphe acteur-acteur à partir des fichiers IMDb ;
+  \item détecter les communautés de collaboration ;
+  \item analyser les liens, les acteurs centraux et les plus courts chemins ;
+  \item rendre les résultats lisibles grâce à une application Streamlit interactive.
+\end{enumerate}
+
+\section{Environnement de travail et outils}
+
+\subsection{Pile technologique}
+
+\begin{table}[H]
+\centering
+\small
+\setlength{\extrarowheight}{3pt}
+\begin{tabularx}{\linewidth}{>{\bfseries\color{imdbblue}}l X}
+\toprule
+\rowcolor{imdblight}
+Outil & Rôle dans le projet \\
+\midrule
+Python & Langage principal : traitement des données, logique applicative, graphes \\
+Pandas & Lecture, fusion et filtrage des fichiers TSV IMDb \\
+NetworkX & Construction des graphes, calcul des algorithmes (modularité, chemins courts, centralité) \\
+Streamlit & Interface web locale interactive avec onglets, filtres et composants réactifs \\
+Folium & Carte géographique interactive \\
+Plotly & Graphiques interactifs : bulles de genres, distributions \\
+\bottomrule
+\end{tabularx}
+\caption{Bibliothèques utilisées dans le projet}
+\end{table}
+
+\subsection{Architecture du projet}
+
+Le fichier principal est \file{app.py} : il centralise le chargement des données, la construction des graphes, les filtres de l'interface et les vues d'analyse. Plusieurs scripts auxiliaires produisent des exports analytiques :
+
+\begin{tcolorbox}[codebox]
+app.py \hfill\textit{(fichier principal)}\\
+export\_backend\_community\_bubbles\_all\_actors.py\\
+export\_backend\_community\_bubbles.py\\
+export\_community\_shortest\_paths\_focus.py\\
+export\_actor\_producers\_by\_community.py
+\end{tcolorbox}
+
+Sur le plan applicatif, \file{app.py} joue un double rôle. D'une part, il orchestre le traitement des données : lecture du cache, sélection des titres, construction des graphes et préparation des tables de résultats. D'autre part, il pilote toute l'expérience utilisateur : navigation entre les vues, widgets de filtrage, affichage conditionnel des graphes et rendu des tableaux de synthèse. Cette centralisation permet de garder une logique cohérente entre les calculs du backend et ce qui est réellement présenté dans le site.
+
+\subsection{Chaîne de traitement}
+
+\begin{tcolorbox}[infobox]
+\textbf{Chaîne de traitement en 6 étapes}
+\begin{enumerate}[leftmargin=1.2cm, itemsep=2pt]
+  \item Lecture d'un sous-ensemble contrôlé des fichiers IMDb ;
+  \item Fusion progressive avec les informations utiles ;
+  \item Construction des graphes ;
+  \item Détection de communautés et calcul des statistiques ;
+  \item Filtrage des sous-graphes pour maintenir une visualisation lisible ;
+  \item Rendu interactif dans Streamlit.
+\end{enumerate}
+\end{tcolorbox}
+
+Cette chaîne de traitement est importante car elle sépare clairement le travail en deux niveaux. Le premier niveau est un niveau \textbf{backend} : il lit une grande quantité de données, construit les graphes et calcule les statistiques. Le second niveau est un niveau \textbf{frontend} : il n'affiche qu'une partie lisible de ces résultats dans l'application. Cette séparation évite de confondre la masse de données analysées avec la petite portion montrée à l'écran. Elle explique aussi pourquoi certaines vues interactives sont plus légères visuellement que les volumes réellement calculés en arrière-plan.
+
+\section{Données IMDb et logique de fusion}
+
+\subsection{Source des données}
+
+Le projet exploite les fichiers TSV proposés officiellement par IMDb dans son portail \textit{Non-Commercial Datasets}. Il ne s'agit pas d'un scraping HTML : les données sont téléchargées sous forme de fichiers compressés et exploitées localement.
+
+\subsection{Fichiers utilisés}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\linewidth}{>{\ttfamily\color{imdbblue}\small}l X}
+\toprule
+\rowcolor{imdblight}
+Fichier & Rôle dans le projet \\
+\midrule
+title.principals.tsv & relie les personnes (\code{nconst}) aux titres (\code{tconst}) et donne la catégorie du rôle \\
+name.basics.tsv & ajoute le nom complet, l'année de naissance et la profession principale \\
+title.basics.tsv & ajoute le titre principal, le type, l'année et les genres \\
+title.ratings.tsv & ajoute la note moyenne IMDb et le nombre de votes \\
+title.akas.tsv & ajoute une dimension régionale pour la carte géographique \\
+\bottomrule
+\end{tabularx}
+\caption{Rôle des cinq fichiers IMDb utilisés}
+\end{table}
+
+\subsection{Volumes de données}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{0.85\linewidth}{X r}
+\toprule
+\rowcolor{imdblight}
+\textbf{Grandeur} & \textbf{Valeur} \\
+\midrule
+Lignes lues dans \file{title.principals.tsv} & 300\,000 \\
+Acteurs et actrices uniques (base large) & \textasciitilde 31\,030 \\
+Acteurs reliés dans le graphe global final & 30\,926 \\
+Arêtes du graphe acteur-acteur global & 563\,847 \\
+Communautés détectées & 215 \\
+\bottomrule
+\end{tabularx}
+\caption{Volumes de données traitées}
+\end{table}
+
+\subsection{Pipeline de préparation}
+
+\begin{enumerate}[leftmargin=1.4cm, itemsep=4pt]
+  \item Lecture des lignes utiles de \file{title.principals.tsv} ;
+  \item Conservation des catégories cibles : \code{actor}, \code{actress}, \code{director}, \code{writer}, \code{producer} ;
+  \item Jointure avec \file{name.basics.tsv}, \file{title.basics.tsv}, \file{title.ratings.tsv} et \file{title.akas.tsv} ;
+  \item Normalisation des colonnes, votes, notes, années et genres ;
+  \item Construction d'une table fusionnée unique servant de base à toutes les analyses.
+\end{enumerate}
+
+Le choix de partir de \file{title.principals.tsv} comme point d'entrée n'est pas anodin. Ce fichier constitue la table relationnelle la plus utile pour un projet de graphes, car il contient directement les couples \code{personne-titre}. À partir de cette structure, il devient possible de reconstruire des relations entre acteurs, entre films ou entre créateurs. Les autres fichiers viennent ensuite enrichir cette base avec des métadonnées : noms, années, genres, votes, notes et régions.
+
+Le nettoyage a aussi un rôle important. Les valeurs manquantes d'IMDb sont souvent codées par \code{\textbackslash N}. Elles doivent être converties ou neutralisées pour éviter des erreurs lors des jointures et des calculs. De même, les colonnes numériques comme l'année, la note moyenne et le nombre de votes doivent être transformées en nombres exploitables afin de permettre les tris, les filtres et les classements.
+
+\section{Modélisation en graphes}
+
+\subsection{Graphe principal acteurs $\leftrightarrow$ acteurs}
+
+Le graphe principal est un \textbf{graphe non orienté et pondéré}.
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{0.9\linewidth}{>{\bfseries}l X}
+\toprule
+\rowcolor{imdblight}
+Élément & Description \\
+\midrule
+Sommet & Un acteur ou une actrice \\
+Arête & Relie deux acteurs s'ils ont joué dans au moins un titre commun \\
+Poids & Nombre de titres partagés entre les deux acteurs \\
+\midrule
+Attributs sommet & Nom, ID IMDb, profession, genre principal, région, communauté \\
+Attributs arête & Poids, liste des titres en commun, genres partagés \\
+\bottomrule
+\end{tabularx}
+\caption{Structure du graphe acteur-acteur}
+\end{table}
+
+\subsection{Logique de sélection}
+
+L'application ne charge pas les fichiers IMDb complets en une seule fois. Elle suit une logique de sélection progressive :
+
+\begin{enumerate}[leftmargin=1.4cm, itemsep=4pt]
+  \item filtrage par type de titre, genre, région et nombre minimum de votes ;
+  \item sélection des titres les plus connecteurs ;
+  \item limitation visuelle du frontend pour préserver la lisibilité.
+\end{enumerate}
+
+Cette logique de sélection répond à un besoin pratique et analytique. Dans une base aussi volumineuse, tous les titres n'ont pas le même intérêt pour construire un réseau. Certains titres relient peu de personnes, tandis que d'autres jouent un rôle structurant en créant un grand nombre d'arêtes entre acteurs. Le projet privilégie donc les titres qui enrichissent réellement la connectivité du graphe. Cette approche permet d'obtenir un réseau plus informatif sans devoir afficher ou calculer l'intégralité des données en permanence dans l'interface.
+
+\subsection{Graphes secondaires}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\linewidth}{>{\bfseries}l X}
+\toprule
+\rowcolor{imdblight}
+Graphe & Description \\
+\midrule
+Communautés $\leftrightarrow$ Communautés & un sommet = une communauté ; un lien = des collaborations entre membres de deux communautés \\
+Films $\leftrightarrow$ Films & un sommet = un film ou une série ; un lien = plusieurs personnes ont travaillé sur les deux titres \\
+Créateurs $\leftrightarrow$ Créateurs & un sommet = un réalisateur, producteur ou scénariste ; un lien = projets partagés \\
+\bottomrule
+\end{tabularx}
+\caption{Graphes secondaires du projet}
+\end{table}
+
+\section{Détection de communautés et logique de modularité}
+
+Une communauté n'est pas définie manuellement par genre, pays ou profession. Elle est détectée automatiquement à partir de la structure relationnelle du graphe : l'algorithme cherche des groupes de sommets qui ont beaucoup de liens internes et relativement peu de liens vers l'extérieur.
+
+\begin{tcolorbox}[greenbox]
+\textbf{Définition opérationnelle}
+La modularité mesure la qualité d'un découpage en communautés. Un bon découpage regroupe les acteurs très liés entre eux et sépare les groupes qui ont peu de liens entre eux.
+\end{tcolorbox}
+
+Autrement dit, l'algorithme ne cherche pas d'abord des acteurs de même genre ou de même pays. Il observe uniquement la forme du réseau. Si plusieurs acteurs apparaissent dans une zone dense de collaborations répétées, ils auront tendance à être regroupés. Cette précision est importante pour l'interprétation des résultats : une communauté ne correspond pas à une catégorie imposée, mais à un groupe qui émerge de la structure du graphe.
+
+\subsection{Résultats principaux}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{crrll}
+\toprule
+\rowcolor{imdblight}
+\textbf{Comm.} & \textbf{Acteurs} & \textbf{\% réseau} & \textbf{Genres dominants} & \textbf{Acteur central} \\
+\midrule
+108 & 5\,460 & 17,66\,\% & Drama, Comedy, Western & Raymond Hatton \\
+49  & 4\,530 & 14,65\,\% & Drama, Short, Comedy   & Charles Ogle \\
+66  & 3\,443 & 11,13\,\% & Drama, Comedy, Romance & J. Farrell MacDonald \\
+115 & 3\,339 & 10,80\,\% & Drama, Comedy, Romance & Paul Horbiger \\
+131 & 2\,515 &  8,13\,\% & Drama, Comedy, Crime   & John Stuart \\
+\bottomrule
+\end{tabular}
+\caption{Exemples de grandes communautés du graphe global}
+\end{table}
+
+\subsection{Distribution des genres}
+
+\begin{center}
+\begin{tabular}{lrr}
+\toprule
+\rowcolor{imdblight}
+\textbf{Genre} & \textbf{Acteurs} & \textbf{\%} \\
+\midrule
+Drama   & 16\,206 & 52,40\,\% \\
+Comedy  &  6\,932 & 22,41\,\% \\
+Unknown &  2\,209 &  7,14\,\% \\
+Crime   &  1\,089 &  3,52\,\% \\
+Short   &  1\,088 &  3,52\,\% \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section{Approche algorithmique}
+
+\subsection{Louvain / modularité}
+
+L'algorithme de Louvain est utilisé pour détecter les communautés dans le graphe acteur-acteur. Son objectif est de maximiser la modularité.
+
+\begin{tcolorbox}[infobox]
+\textbf{Idée principale}
+Un bon découpage en communautés place ensemble les acteurs qui collaborent fortement entre eux, tout en séparant les groupes ayant peu de liens entre eux.
+\end{tcolorbox}
+
+Concrètement, l'algorithme commence par considérer que chaque acteur forme sa propre communauté. Il teste ensuite des regroupements locaux en observant si le déplacement d'un acteur vers une communauté voisine améliore la modularité du graphe. Lorsque les regroupements se stabilisent, les communautés obtenues sont contractées en nouveaux sommets et le processus recommence sur un graphe plus compact. Cette stratégie hiérarchique est bien adaptée aux graphes volumineux, car elle permet d'obtenir un découpage pertinent sans imposer manuellement les groupes.
+
+\subsection{Dijkstra pour les plus courts chemins}
+
+Le calcul des plus courts chemins permet de déterminer comment passer d'un acteur à un autre, ou d'une communauté à une autre, en minimisant la distance relationnelle. Comme le graphe est pondéré, la distance utilisée est :
+
+\begin{center}
+\Large\bfseries\color{maincolor}
+Distance = $\dfrac{1}{\text{poids du lien}}$
+\end{center}
+
+\begin{tcolorbox}[greenbox]
+\textbf{Interprétation}
+Deux acteurs ayant travaillé ensemble dans cinq films sont considérés comme plus proches que deux acteurs n'ayant partagé qu'un seul film.
+\end{tcolorbox}
+
+Ce choix donne une lecture plus réaliste du réseau qu'un simple comptage du nombre de sauts. En effet, deux chemins contenant le même nombre d'étapes ne traduisent pas forcément la même intensité relationnelle. Un chemin passant par des liens forts représente une chaîne de collaborations plus cohérente qu'un chemin reposant uniquement sur des rencontres ponctuelles. L'utilisation de Dijkstra avec une distance inverse du poids permet donc d'intégrer la force réelle des collaborations dans le calcul.
+
+Dans l'application, ce calcul intervient dès qu'un acteur de départ et un acteur d'arrivée sont sélectionnés. Le résultat affiché ne se limite pas à une distance abstraite : il fournit aussi la liste des acteurs intermédiaires qui servent de transition dans le réseau. Cette fonctionnalité est importante, car elle permet de comprendre comment deux acteurs apparemment éloignés peuvent être reliés par une chaîne de collaborations.
+
+\subsection{Centralité}
+
+Pour identifier les acteurs importants, plusieurs indicateurs sont utilisés :
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\linewidth}{>{\bfseries\color{maincolor}}l X}
+\toprule
+\rowcolor{lightbg}
+Indicateur & Interprétation dans le projet \\
+\midrule
+Degré & Nombre de collaborateurs directs d'un acteur \\
+Degré pondéré & Intensité totale des collaborations \\
+Communauté & Groupe d'acteurs plus liés entre eux qu'avec le reste du réseau \\
+Plus court chemin & Suite minimale de liens reliant deux acteurs ou deux communautés \\
+\bottomrule
+\end{tabularx}
+\caption{Principaux indicateurs utilisés}
+\end{table}
+
+Dans la pratique, l'application s'appuie surtout sur le degré et le degré pondéré. Le degré mesure l'ouverture d'un acteur, c'est-à-dire le nombre de collaborateurs différents avec lesquels il est relié. Le degré pondéré mesure au contraire l'intensité totale de ses collaborations. Cette distinction est utile, car un acteur peut être très visible dans le réseau soit parce qu'il a travaillé avec beaucoup de personnes différentes, soit parce qu'il entretient un noyau de collaborations répétées particulièrement fort.
+
+\section{Application web et description des vues}
+
+\subsection{Architecture et lancement}
+
+L'application est développée avec Streamlit et accessible localement depuis un navigateur web.
+
+\begin{tcolorbox}[codebox]
+\texttt{venv\textbackslash Scripts\textbackslash streamlit.exe run app.py}\\
+\textit{puis accessible sur :} \texttt{http://localhost:8501}
+\end{tcolorbox}
+
+Le site est organisé comme une interface d'exploration plutôt que comme un simple tableau de bord. Chaque vue répond à une question précise : voir la structure du graphe principal, analyser les communautés, comprendre les distances, consulter des statistiques ou encore vérifier la logique des données utilisées. Cette séparation rend l'application plus lisible et évite de surcharger une seule page avec tous les indicateurs du projet.
+
+\subsection{Vue 1 --- Graphe interactif acteurs}
+
+\img{01.png}{Vue principale du graphe interactif acteurs}
+
+Cette vue permet :
+\begin{itemize}[leftmargin=1.4cm, itemsep=3pt]
+  \item de rechercher un acteur ou un film ;
+  \item de regrouper visuellement les sommets ;
+  \item de cliquer sur un sommet pour consulter ses informations ;
+  \item de survoler ou sélectionner une arête pour voir les titres en commun ;
+  \item de calculer un plus court chemin entre deux acteurs.
+\end{itemize}
+
+Il s'agit de la vue centrale de l'application, car elle traduit directement la modélisation théorique en objet visuel manipulable. L'utilisateur ne consulte plus seulement une liste d'acteurs ou de films : il observe une structure relationnelle. Cette vue est donc essentielle pour comprendre le sens des sommets, des arêtes et des groupes colorés affichés à l'écran.
+
+Sur le plan fonctionnel, cette vue combine plusieurs éléments utiles dans une même interface : une barre de recherche, des contrôles de filtrage, des options d'affichage des liens, un regroupement par communauté, genre, pays ou profession, ainsi qu'un panneau de détails. L'objectif est de permettre une exploration progressive du réseau, sans imposer à l'utilisateur une lecture unique ou figée.
+
+\subsection{Vue 2 --- Carte géographique}
+
+\img{map.png}{Vue de la carte géographique}
+
+La carte permet de visualiser la répartition régionale simplifiée des acteurs et des collaborations à partir des régions IMDb.
+
+Cette vue ne remplace pas le graphe principal : elle apporte une lecture complémentaire. Là où le réseau montre les relations entre personnes, la carte aide à replacer une partie de ces relations dans un contexte géographique plus large. Elle sert donc surtout à enrichir l'interprétation visuelle du projet.
+
+\subsection{Vue 3 --- Analyses}
+
+\img{cap.png}{Vue Analyses}
+
+Cette vue regroupe les mesures quantitatives du projet : acteurs les plus connectés, tailles de communautés, genres dominants et régions actives.
+
+Elle permet de passer d'une logique d'exploration visuelle à une logique de mesure. Autrement dit, cette vue répond à des questions quantitatives que le graphe seul ne permet pas de lire rapidement, par exemple l'identification des acteurs les plus connectés ou la comparaison des communautés par taille et par genre dominant.
+
+\subsection{Vue 4 --- Graphes secondaires}
+
+\img{EXP2.png}{Vue Exemples réseau}
+
+Cette vue propose trois autres lectures du même jeu de données :
+\begin{itemize}[leftmargin=1.4cm, itemsep=3pt]
+  \item communautés $\leftrightarrow$ communautés ;
+  \item films $\leftrightarrow$ films ;
+  \item créateurs $\leftrightarrow$ créateurs.
+\end{itemize}
+
+L'intérêt de cette vue est méthodologique : elle montre qu'un même jeu de données peut produire plusieurs graphes différents selon la question posée. Le projet n'est donc pas limité à un seul réseau acteur-acteur, mais propose plusieurs lectures complémentaires d'un même univers de données.
+
+Cette partie est importante dans le rapport, car elle montre que le choix du graphe principal n'est pas arbitraire. Il existe plusieurs manières légitimes de modéliser les données IMDb. Le graphe acteur-acteur a été retenu comme cœur du projet, mais les graphes secondaires démontrent que la même base peut aussi servir à analyser les relations entre films, entre créateurs ou entre communautés entières.
+
+\subsection{Vue 5 --- Synthèse projet}
+
+\img{vue5.png}{Vue Synthèse projet}
+
+Cette vue rassemble les grandes statistiques, les images globales du réseau, les distributions par genre et les tableaux de communautés.
+
+Elle joue un rôle central dans la compréhension du projet, car elle permet de passer d'une lecture locale à une lecture globale. Dans les vues interactives classiques, l'utilisateur explore un sous-graphe visible, filtré pour rester lisible. Dans la synthèse, au contraire, on s'appuie sur des exports calculés sur un backend plus large. Les indicateurs affichés résument donc le réseau global, même lorsque le graphe montré dans les autres onglets est plus petit visuellement.
+
+Cette vue sert également à relier les différents niveaux d'analyse du projet : le niveau micro des acteurs individuels, le niveau intermédiaire des communautés et le niveau macro des relations entre groupes. Elle constitue donc le point de rencontre entre la logique algorithmique du backend et la lecture interprétative proposée à l'utilisateur final.
+
+\subsection{Vue 6 --- Données et détails}
+
+Cette vue expose de manière transparente les fichiers utilisés, les volumes lus et quelques éléments de la table finale construite.
+
+Elle joue un rôle de traçabilité. Dans un projet d'open data, il est important de pouvoir expliquer d'où viennent les données, comment elles ont été filtrées et quels volumes ont réellement été conservés après préparation. Cette vue permet de justifier techniquement la construction du graphe.
+
+\section{Résultats visuels et interprétation}
+
+\subsection{Vue large du réseau}
+
+\img{graph 1.png}{Vue statique NetworkX du réseau d'acteurs}
+
+Cette figure montre la densité du réseau et justifie la nécessité d'une lecture par niveaux.
+
+\subsection{Vue globale des communautés}
+
+\img{comm.png}{Vue globale des communautés et vue par bulles}
+
+Cette figure montre d'abord la répartition globale des acteurs, puis un focus sur les communautés majeures avec leurs acteurs centraux.
+
+Elle est particulièrement utile pour expliquer pourquoi une lecture en plusieurs niveaux est nécessaire. À grande échelle, le réseau complet devient difficile à commenter directement. Le regroupement par communautés permet alors de résumer l'information sans perdre la logique relationnelle du graphe.
+
+\subsection{Graphe des communautés et plus courts chemins}
+
+\img{pluscourt.png}{Graphe des communautés et plus courts chemins}
+
+Cette figure permet d'étudier :
+\begin{itemize}[leftmargin=1.4cm, itemsep=3pt]
+  \item quelles communautés sont proches ;
+  \item lesquelles nécessitent plusieurs sauts ;
+  \item quelles communautés jouent un rôle de pont.
+\end{itemize}
+
+\subsection{Genres et communautés}
+
+\img{stat.png}{Analyses avancées : genres et acteurs}
+
+Cette vue met en relation les communautés, les genres dominants et quelques acteurs centraux du réseau.
+
+Elle permet de mieux interpréter les communautés après leur détection. En effet, les communautés sont créées par la structure du réseau, mais elles peuvent ensuite être décrites par d'autres variables comme les genres dominants ou les acteurs les plus importants. Cette étape d'interprétation est utile pour donner du sens aux groupes obtenus.
+
+\section{Analyses détaillées}
+
+\subsection{Signification des liens}
+
+\begin{tcolorbox}[greenbox]
+\textbf{Un lien entre deux acteurs signifie}
+qu'ils ont joué dans au moins un même film ou une même série. Le poids du lien représente le nombre de titres en commun.
+\end{tcolorbox}
+
+La distribution des poids montre que :
+\begin{itemize}[leftmargin=1.4cm, itemsep=3pt]
+  \item 87,42\,\% des liens ont un poids 1 ;
+  \item 8,47\,\% des liens ont un poids 2 ;
+  \item les poids plus élevés restent minoritaires.
+\end{itemize}
+
+Cette distribution montre que la majorité des connexions du réseau correspondent à des collaborations ponctuelles. Cependant, ce sont précisément les liens plus lourds, donc plus rares, qui jouent souvent un rôle structurant pour la détection des communautés et pour la lecture des plus courts chemins. Ils servent de colonne vertébrale relationnelle dans le graphe.
+
+\subsection{Acteurs qui sont aussi producteurs}
+
+L'application identifie les acteurs ayant également un profil de producteur dans les données IMDb.
+
+\begin{tcolorbox}[warnbox]
+\textbf{Limite importante}
+Les fichiers IMDb Open Data locaux ne contiennent pas de colonne budget de production. Il n'est donc pas possible de calculer le film au plus gros budget pour chaque communauté sans source externe.
+\end{tcolorbox}
+
+\subsection{Acteurs les plus importants par communauté}
+
+Le classement repose sur trois critères :
+\begin{enumerate}[leftmargin=1.4cm, itemsep=2pt]
+  \item le degré pondéré ;
+  \item le nombre de liens uniques ;
+  \item le nombre de projets.
+\end{enumerate}
+
+Le degré pondéré est particulièrement utile ici, car il ne compte pas seulement le nombre de connexions, mais aussi leur intensité. Un acteur peut avoir peu de voisins directs et pourtant être très central s'il collabore de manière répétée avec eux. À l'inverse, un acteur ayant beaucoup de voisins mais seulement des collaborations ponctuelles pourra avoir un rôle plus diffus dans la structure du réseau.
+
+\section{Analyse critique des résultats}
+
+\subsection{Dominance du genre Drama}
+
+Le genre \textit{Drama} est largement dominant dans le réseau. Cette dominance s'explique par le fait qu'il s'agit d'une catégorie très large, présente dans de nombreuses périodes et zones de production.
+
+\subsection{Taille inégale des communautés}
+
+Certaines communautés regroupent plusieurs milliers d'acteurs alors que d'autres sont beaucoup plus petites. Cela reflète la structure réelle du réseau et la non-uniformité des collaborations.
+
+\begin{tcolorbox}[infobox]
+\textbf{Lecture importante}
+Une grande communauté ne signifie pas une meilleure qualité artistique. Elle traduit surtout une forte connectivité dans la structure du graphe.
+\end{tcolorbox}
+
+\subsection{Biais possibles}
+
+Les résultats dépendent de la qualité de la base IMDb utilisée : informations manquantes, genres incomplets, régions approximatives ou déséquilibres entre périodes peuvent influencer la lecture du réseau.
+
+Il faut donc lire les résultats comme une analyse structurelle cohérente d'un sous-ensemble très riche de données IMDb, et non comme une représentation exhaustive de toute l'histoire du cinéma. Cette nuance est importante pour éviter de surinterpréter certains classements ou certaines dominances de genre.
+
+\section{Limites et difficultés rencontrées}
+
+\subsection{Volume et lisibilité}
+
+Le volume des données IMDb rend impossible un affichage exhaustif dans une interface web classique. La séparation backend/frontend a été nécessaire : le backend analyse large, le frontend affiche une sélection lisible.
+
+\subsection{Performance de la carte}
+
+La carte géographique est le composant le plus lourd de l'application. Des optimisations ont été nécessaires, notamment le chargement à la demande et des limites d'affichage par défaut.
+
+\subsection{Limites de la source IMDb}
+
+Les fichiers IMDb locaux présentent plusieurs limites :
+\begin{itemize}[leftmargin=1.4cm, itemsep=2pt]
+  \item pas de budget de production ;
+  \item pas de géolocalisation individuelle précise ;
+  \item notes ou votes manquants pour certains titres anciens.
+\end{itemize}
+
+\section{Conclusion}
+
+Ce projet montre comment des données ouvertes fournies sous forme de fichiers TSV peuvent être transformées en un réseau d'analyse riche et exploitable. À partir des données IMDb, le graphe construit met en évidence des collaborations entre acteurs, des communautés structurées, des acteurs centraux et des chemins reliant différentes parties du réseau.
+
+L'application Streamlit complète cette démarche en rendant les résultats accessibles visuellement. Elle permet de rechercher un acteur ou un titre, d'observer les liens, d'explorer les communautés et de comparer plusieurs représentations du même jeu de données.
+
+L'intérêt principal du travail réside donc dans le passage d'un ensemble de tables brutes à une représentation relationnelle interprétable. Là où un tableau IMDb montre des lignes isolées, le graphe révèle des structures collectives, des groupes de collaboration et des trajectoires de connexion. Le projet met ainsi en évidence l'apport concret de la théorie des graphes pour explorer des données culturelles à grande échelle.
+
+\section{Perspectives}
+
+Plusieurs prolongements sont envisageables :
+
+\begin{itemize}[leftmargin=1.4cm, itemsep=4pt]
+  \item brancher une source externe pour récupérer les budgets de production ;
+  \item construire un graphe biparti acteurs-films ;
+  \item calculer des centralités avancées ;
+  \item comparer plusieurs algorithmes de détection de communautés.
+\end{itemize}
+
+\newpage
+\section*{Bibliographie}
+\addcontentsline{toc}{section}{Bibliographie}
+
+\begin{thebibliography}{9}
+\bibitem{newman} M.~Newman, \textit{Networks: An Introduction}, Oxford University Press, 2010.
+\bibitem{barabasi} A.-L.~Barabási, \textit{Network Science}, Cambridge University Press, 2016.
+\bibitem{hagberg} A.~Hagberg, P.~Swart, D.~S.~Chult, \textit{Exploring network structure, dynamics, and function using NetworkX}, SciPy 2008.
+\end{thebibliography}
+
+\section*{Webographie}
+\addcontentsline{toc}{section}{Webographie}
+
+\begin{thebibliography}{9}
+\bibitem{imdb} IMDb Non-Commercial Datasets : \url{https://developer.imdb.com/non-commercial-datasets/}
+\bibitem{networkx} NetworkX Documentation : \url{https://networkx.org/}
+\bibitem{streamlit} Streamlit Documentation : \url{https://streamlit.io/}
+\bibitem{folium} Folium : \url{https://python-visualization.github.io/folium/}
+\bibitem{plotly} Plotly Python : \url{https://plotly.com/python/}
+\end{thebibliography}
+
+\end{document}
